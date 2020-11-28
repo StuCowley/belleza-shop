@@ -12,3 +12,35 @@
     padding: $header-padding-y-lrg $header-padding-x-lrg;
   }
 }
+
+/**
+ * Site branding
+ */
+.sc-site-branding {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: $header-branding-mr;
+  color: $header-branding-colour;
+
+  span {
+    font-weight: $header-branding-font-weight;
+    font-size: $header-branding-font-size;
+
+    img {
+      transition: $header-branding-img-transition;
+
+      @include hover-focus {
+        opacity: $header-branding-img-hover-opacity;
+      }
+    }
+  }
+
+  a {
+    color: $header-branding-link-colour;
+
+    @include hover-focus {
+      color: $header-branding-link-hover;
+    }
+  }
+}

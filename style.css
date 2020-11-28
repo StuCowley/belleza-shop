@@ -627,4 +627,31 @@ a:hover, a:focus {
   }
 }
 
+/**
+ * Site branding
+ */
+.sc-site-branding {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  margin-right: 1.5rem;
+  color: #1a202d;
+}
+.sc-site-branding span {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.sc-site-branding span img {
+  transition: 0.25s ease all;
+}
+.sc-site-branding span img:hover, .sc-site-branding span img:focus {
+  opacity: 0.5;
+}
+.sc-site-branding a {
+  color: #1a202d;
+}
+.sc-site-branding a:hover, .sc-site-branding a:focus {
+  color: #002d70;
+}
+
 /*# sourceMappingURL=style.css.map */
