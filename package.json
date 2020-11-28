@@ -4,7 +4,7 @@
   "description": "The WooCommerce theme for the Belleza theme, which has been designed and developed specifically for Heyday Skin + Beauty",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:sass": "sass --watch assets/sass/style.scss:style.css"
   },
   "repository": {
     "type": "git",
