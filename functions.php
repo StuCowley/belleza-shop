@@ -21,6 +21,17 @@ if ( ! function_exists( 'bellezashop_setup' ) ) {
      * WordPress will provide it for us.
      */
     add_theme_support( 'title-tag' );
+
+
+    /**
+     * Register the header and footer menus
+     */
+    register_nav_menus(
+      array(
+        'header'  =>  esc_html__( 'Header menu', 'bellezashop' ),
+        'footer'  =>  esc_html__( 'Footer menu', 'bellezashop' ),
+      )
+    );
   }
 }
 add_action( 'after_setup_theme', 'bellezashop_setup' );
