@@ -1,0 +1,14 @@
+.sc-header {
+  @include margin-x($header-mx, $header-mx);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: $header-max-w;
+  padding: $header-padding-y-sml $header-padding-x-sml;
+  background-color: $header-bg-colour;
+
+  @media(min-width: $break-lg) {
+    padding: $header-padding-y-lrg $header-padding-x-lrg;
+  }
+}
