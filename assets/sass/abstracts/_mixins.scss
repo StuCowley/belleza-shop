@@ -1,0 +1,116 @@
+// LINK STATES
+//
+// Instead of using the &:hover, &:focus, etc. Use one of these mixins to 
+// quickly add link states in one single line.
+//
+// Version: 1.0.0
+
+@mixin hover {
+  &:hover {
+    @content;
+  }
+}
+
+@mixin focus {
+  &:focus {
+    @content;
+  }
+}
+
+@mixin visited {
+  &:visited {
+    @content;
+  }
+}
+
+@mixin hover-focus {
+  &:hover,
+  &:focus {
+    @content;
+  }
+}
+
+
+// Y OR X MARGIN
+// 
+// Save on lines with the Y or X axis margin mixin. Each mixin (margin-y or 
+// margin-x) will add the necessary margin styles. All you need to do is 
+// provide the values in each of the args ($top, $bottom) for the margin-y 
+// mixin or ($left, $right) for the margin-x mixin.
+//
+// Version: 1.0.0
+
+@mixin margin-y($top, $bottom) {
+  margin-top: $top;
+  margin-bottom: $bottom;
+}
+
+@mixin margin-x($left, $right) {
+  margin-left: $left;
+  margin-right: $right;
+}
+
+
+// Y OR X PADDING
+// 
+// Save on lines with the Y or X axis padding mixin. Each mixin (padding-y or 
+// padding-x) will add the necessary padding styles. All you need to do is 
+// provide the values in each of the args ($top, $bottom) for the padding-y 
+// mixin or ($left, $right) for the padding-x mixin.
+//
+// Version: 1.0.0
+
+@mixin padding-y($top, $bottom) {
+  padding-top: $top;
+  padding-bottom: $bottom;
+}
+
+@mixin padding-x($left, $right) {
+  padding-left: $left;
+  padding-right: $right;
+}
+
+
+// BUTTON
+//
+// Sets up a button display.
+//
+// Version: 1.0.0
+
+@mixin button(
+  $padding,
+  $border-radius,
+  $border,
+  $colour,
+  $text-align,
+
+  $hover-bg-colour,
+  $hover-colour,
+  $hover-outline,
+
+  $focus-bg-colour:null,
+  $focus-colour:null,
+  $focus-outline:null,
+
+  $visited-bg-colour:null,
+  $visited-colour:null,
+  $visited-outline:null
+) {
+  padding: $padding;
+  border-radius: $border-radius;
+  border: $border;
+  color: $colour;
+  text-align: $text-align;
+
+  @include hover-focus {
+    background-color: $hover-bg-colour;
+    color: $hover-colour;
+    outline: $hover-outline;
+  }
+
+  @include visited {
+    background-color: $visited-bg-colour;
+    color: $visited-colour;
+    outline: $visited-outline;
+  }
+}
