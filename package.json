@@ -1,0 +1,19 @@
+{
+  "name": "belleza-shop",
+  "version": "1.0.0",
+  "description": "The WooCommerce theme for the Belleza theme, which has been designed and developed specifically for Heyday Skin + Beauty",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StuCowley/belleza-shop.git"
+  },
+  "author": "Stu Cowley",
+  "license": "GPL-2.0-or-later",
+  "bugs": {
+    "url": "https://github.com/StuCowley/belleza-shop/issues"
+  },
+  "homepage": "https://github.com/StuCowley/belleza-shop#readme"
+}
