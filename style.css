@@ -610,4 +610,21 @@ a:hover, a:focus {
   outline: none;
 }
 
+.sc-header {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  padding: 2rem 2rem;
+  background-color: white;
+}
+@media (min-width: 1024px) {
+  .sc-header {
+    padding: 2rem 4rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
