@@ -67,3 +67,75 @@ $link-outline:                                  none !default;
 
 //*** Link Transition
 $link-transition:                               0.25s ease all !default;
+
+
+// ---------- HEADER
+
+$header-padding-y-sml:                          2rem !default;
+$header-padding-y-lrg:                          2rem !default;
+$header-padding-x-sml:                          2rem !default;
+$header-padding-x-lrg:                          4rem !default;
+
+$header-mx:                                     auto !default;
+$header-max-w:                                  1280px !default;
+
+$header-bg-colour:                              $white !default;
+
+//*** Header Branding
+$header-branding-mr:                            1.5rem !default;
+$header-branding-colour:                        $gray-900 !default;
+$header-branding-font-weight:                   600 !default;
+$header-branding-font-size:                     1.25rem !default;
+
+$header-branding-img-height:                    2.5rem !default;
+$header-branding-img-transition:                $link-transition !default;
+$header-branding-img-hover-opacity:             0.5 !default;
+
+$header-branding-link-colour:                   $colour-base !default;
+$header-branding-link-hover:                    $branding-primary !default;
+
+//*** Header Menu Toggle
+$header-menu-toggle-btn-colour:                 $gray-900 !default;
+$header-menu-toggle-btn-hover-colour:           $gray-900 !default;
+$header-menu-toggle-btn-transition:             $link-transition !default;
+$header-menu-toggle-btn-outline:                $link-outline !default;
+
+$header-menu-toggle-btn-svg-w:                  1.25rem !default;
+$header-menu-toggle-btn-svg-h:                  1.25rem !default;
+
+//*** Header Menu
+$header-menu-mt-sm:                             1rem !default;
+$header-menu-mt-lg:                             0 !default;
+
+//*** Header Menu Container
+$header-menu-container-text-align:              center !default;
+
+//*** Header Menu Item
+$header-menu-item-mt-sm:                        1rem !default;
+$header-menu-item-mt-lg:                        0 !default;
+$header-menu-item-mr-lg:                        1.5rem !default;
+
+$header-menu-item-link-colour:                  $gray-900 !default;
+$header-menu-item-link-tracking:                0.025em !default;
+$header-menu-item-link-font-weight:             400 !default;
+$header-menu-item-link-text-transform:          capitalize !default;
+
+$header-menu-item-link-hover-colour:            $link-active-colour !default;
+
+//*** Header Menu Button
+$header-menu-btn-padding-y-sm:                  0.25rem !default;
+$header-menu-btn-padding-x-sm:                  1rem !default;
+
+$header-menu-btn-border-r:                      999px !default;
+$header-menu-btn-border:                        1px solid $branding-primary !default;
+
+$header-menu-btn-colour:                        $branding-primary !default;
+$header-menu-btn-text-align:                    center !default;
+
+$header-menu-btn-hover-bg:                      $branding-primary !default;
+$header-menu-btn-hover-colour:                  $white !default;
+$header-menu-btn-outline:                       $link-outline !default;
+
+//*** Header Secondary Menu
+$header-secondary-menu-mt-sm:                   2.5rem !default;
+$header-secondary-menu-mt-lg:                   0 !default;
