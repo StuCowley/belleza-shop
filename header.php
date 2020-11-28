@@ -22,4 +22,4 @@
 <body>
   <?php wp_body_open(); ?>
 
-  <p>Header</p>
+  <?php get_template_part( 'template-parts/header/site-header' ); ?>
