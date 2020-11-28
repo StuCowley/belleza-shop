@@ -708,7 +708,7 @@ a:hover, a:focus {
   display: block;
   margin-top: 1rem;
   letter-spacing: 0.025em;
-  font-weight: 400;
+  font-weight: 500;
   text-transform: capitalize;
 }
 .sc-header-menu-item a {
