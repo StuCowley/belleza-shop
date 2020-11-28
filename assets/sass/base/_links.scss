@@ -1,0 +1,22 @@
+/**
+ * Set the default link styles
+ *
+ * Version: 1.0.0
+ */
+
+a {
+  color: $link-active-colour;
+  text-decoration: $link-active-decoration;
+  transition: $link-transition;
+
+  @include hover {
+    color: $link-hover-colour;
+    text-decoration: $link-hover-decoration;
+  }
+
+  @include hover-focus {
+    color: $link-focus-colour;
+    text-decoration: $link-focus-decoration;
+    outline: $link-outline;
+  }
+}
