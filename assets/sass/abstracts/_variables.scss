@@ -1,0 +1,69 @@
+// ---------- BREAKPOINTS
+$break-sm:                                      640px !default;
+$break-md:                                      768px !default;
+$break-lg:                                      1024px !default;
+$break-xl:                                      1280px !default;
+
+
+// ---------- COLOUR SYSTEM
+
+//*** Grayscale
+$gray-100:                                      hsl(204, 47%, 98%) !default;
+$gray-200:                                      hsl(210, 40%, 95%) !default;
+$gray-300:                                      hsl(215, 33%, 91%) !default;
+$gray-400:                                      hsl(214, 25%, 84%) !default;
+$gray-500:                                      hsl(213, 20%, 69%) !default;
+$gray-600:                                      hsl(215, 15%, 52%) !default;
+$gray-700:                                      hsl(217, 16%, 35%) !default;
+$gray-800:                                      hsl(220, 23%, 23%) !default;
+$gray-900:                                      hsl(221, 27%, 14%) !default;
+
+//*** B&W
+$black:                                         hsl(0, 0%, 0%) !default;
+$white:                                         hsl(0, 0%, 100%) !default;
+
+// ---------- TYPOGRAPHY
+
+//*** Font URL
+// The $font-url needs to be commented out if no font url is to be used.
+
+// $font-url:                                   'https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap;
+
+$font-sans-serif:                               system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-base:                                     $font-sans-serif !default;
+
+//*** Font Sizes
+$font-size-xs:                                  0.75rem !default;
+$font-size-sm:                                  0.875rem !default;
+$font-size-md:                                  1rem !default;
+$font-size-lg:                                  1.125rem !default;
+$font-size-xl:                                  1.25rem !default;
+$font-size-2xl:                                 1.5rem !default;
+$font-size-3xl:                                 1.875rem !default;
+$font-size-4xl:                                 2.25rem !default;
+$font-size-5xl:                                 3rem !default;
+$font-size-6xl:                                 4rem !default;
+
+$font-size-base:                                $font-size-md !default;
+
+//*** Text Colours
+$colour-base:                                   $gray-900 !default;
+
+
+// ---------- LINKS
+
+//*** Link Colours
+$link-active-colour:                            $branding-primary !default;
+$link-hover-colour:                             $branding-secondary !default;
+$link-focus-colour:                             $link-hover-colour !default;
+
+//*** Link Decoration
+$link-active-decoration:                        none !default;
+$link-hover-decoration:                         none !default;
+$link-focus-decoration:                         $link-hover-decoration !default;
+
+//*** Link Outline
+$link-outline:                                  none !default;
+
+//*** Link Transition
+$link-transition:                               0.25s ease all !default;
