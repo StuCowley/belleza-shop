@@ -95,14 +95,6 @@
   }
 }
 
-.sc-header-menu-open {
-  display: block;
-
-  @media(min-width: $break-lg) {
-    display: flex;
-  }
-}
-
 /**
  * Set header menu link item
  *

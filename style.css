@@ -703,15 +703,6 @@ a:hover, a:focus {
   }
 }
 
-.sc-header-menu-open {
-  display: block;
-}
-@media (min-width: 1024px) {
-  .sc-header-menu-open {
-    display: flex;
-  }
-}
-
 /**
  * Set header menu link item
  *
