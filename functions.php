@@ -65,6 +65,13 @@ add_action( 'after_setup_theme', 'bellezashop_setup' );
  */
 function bellezashop_scripts() {
   wp_enqueue_style( 'bellezashop-style', get_template_directory_uri() . '/style.css' );
+  
+  // Orisue UI script
+  wp_enqueue_script( 
+    'bellezashop-orisue-ui', 
+    get_template_directory_uri() . '/assets/js/orisue-ui.js',
+    true
+  );
 }
 add_action( 'wp_enqueue_scripts', 'bellezashop_scripts' );
 
