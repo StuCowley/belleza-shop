@@ -144,3 +144,88 @@ $header-menu-btn-outline:                       $link-outline !default;
 //*** Header Secondary Menu
 $header-secondary-menu-mt-sm:                   2.5rem !default;
 $header-secondary-menu-mt-lg:                   0 !default;
+
+
+//---------- HERO FEATURE
+
+//*** Padding
+$hero-feature-p:                                2.5rem 1rem !default;
+
+$hero-feature-py-sm:                            3rem !default;
+$hero-feature-py-lg:                            5rem !default;
+$hero-feature-py-xl:                            6rem !default;
+
+$hero-feature-px-sm:                            1.5rem !default;
+$hero-feature-px-lg:                            2rem !default;
+
+//*** Background
+$hero-feature-bg-repeat:                        no-repeat !default;
+$hero-feature-bg-size:                          cover !default;
+$hero-feature-bg-pos:                           center !default;
+$hero-feature-bg-colour:                        $gray-200 !default;
+$hero-feature-bg-blend:                         multiply !default;
+
+//*** Text
+$hero-feature-colour:                           $gray-600 !default;
+$hero-feature-text-align:                       center !default;
+
+$hero-feature-text-align-sm:                    center !default;
+$hero-feature-text-align-lg:                    left !default;
+
+//*** Heading (<h2>)
+$hero-feature-h2-max-w-sml:                     48rem !default;
+$hero-feature-h2-mx-sm:                         auto !default;
+$hero-feature-h2-mx-lg:                         0 !default;
+$hero-feature-h2-tracking:                      -0.025em !default;
+$hero-feature-h2-font-size:                     2.25rem !default;
+$hero-feature-h2-font-size-sm:                  3rem !default;
+$hero-feature-h2-font-weight:                   800 !default;
+$hero-feature-h2-leading:                       2.25rem !default;
+$hero-feature-h2-leading-sm:                    1 !default;
+$hero-feature-h2-colour:                        $gray-800 !default;
+
+//*** Paragraph
+$hero-feature-p-max-width-sm:                   36rem !default;
+$hero-feature-p-m:                              1.25rem auto 0 auto !default;
+$hero-feature-p-mt:                             0.75rem !default;
+$hero-feature-p-font-size:                      $font-size-base !default;
+$hero-feature-p-font-size-sm:                   1.25rem !default;
+
+//*** Feature Hero Container
+$hero-feature-container-max-w:                  1280px !default;
+$hero-feature-container-mx:                     auto !default;
+
+//*** Feature Hero Button Group
+$hero-feature-btn-group-mt:                     1.25rem !default;
+$hero-feature-btn-group-span-mt:                0.75rem !default;
+
+$hero-feature-btn-group-mt-sm:                  2rem !default;
+
+//*** Hero Button
+$hero-btn-py:                                   0.75rem !default;
+$hero-btn-px:                                   2rem !default;
+$hero-btn-py-md:                                0.75rem !default;
+$hero-btn-px-md:                                2.5rem !default;
+
+$hero-btn-border-r:                             0.25rem !default;
+$hero-btn-border:                               1px solid transparent !default;
+$hero-btn-leading:                              1.5rem !default;
+$hero-btn-font-weight:                          500 !default;
+$hero-btn-font-size:                            $font-size-base !default;
+$hero-btn-outline:                              $link-outline !default;
+
+//*** Primary Hero Button
+$hero-btn-primary-bg:                           $branding-primary !default;
+$hero-btn-primary-colour:                       $white !default;
+
+$hero-btn-primary-bg-hover:                     $branding-secondary !default;
+$hero-btn-primary-colour-hover:                 $white !default;
+
+//*** Secondary Hero Button
+$hero-btn-secondary-bg:                         transparent !default;
+$hero-btn-secondary-border-colour:              $branding-primary !default;
+$hero-btn-secondary-colour:                     $branding-primary !default;
+
+$hero-btn-secondary-bg-hover:                   $branding-secondary !default;
+$hero-btn-secondary-border-hover:               $branding-secondary !default;
+$hero-btn-secondary-colour-hover:               $white !default;
