@@ -102,3 +102,31 @@
     display: flex;
   }
 }
+
+/**
+ * Set header menu link item
+ *
+ * Version: 1.0.0
+ */
+
+.sc-header-menu-item {
+  display: block;
+  margin-top: $header-menu-item-mt-sm;
+  letter-spacing: $header-menu-item-link-tracking;
+  font-weight: $header-menu-item-link-font-weight;
+  text-transform: $header-menu-item-link-text-transform;
+  
+  a {
+    color: $header-menu-item-link-colour;
+
+    @include hover-focus {
+      color: $header-menu-item-link-hover-colour;
+    }
+  }
+
+  @media(min-width: $break-lg) {
+    display: inline-block;
+    margin-top: $header-menu-item-mt-lg;
+    margin-right: $header-menu-item-mr-lg;
+  }
+}

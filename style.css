@@ -712,4 +712,30 @@ a:hover, a:focus {
   }
 }
 
+/**
+ * Set header menu link item
+ *
+ * Version: 1.0.0
+ */
+.sc-header-menu-item {
+  display: block;
+  margin-top: 1rem;
+  letter-spacing: 0.025em;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+.sc-header-menu-item a {
+  color: #1a202d;
+}
+.sc-header-menu-item a:hover, .sc-header-menu-item a:focus {
+  color: #0555f5;
+}
+@media (min-width: 1024px) {
+  .sc-header-menu-item {
+    display: inline-block;
+    margin-top: 0;
+    margin-right: 1.5rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
