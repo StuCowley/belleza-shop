@@ -50,6 +50,12 @@ if ( ! function_exists( 'bellezashop_setup' ) ) {
         'unlink-homepage-logo'  => false,
       )
     );
+
+
+    /**
+     * Load the required the WooCommerce functions file
+     */
+    require get_template_directory() . '/inc/woocommerce-functions.php';
   }
 }
 add_action( 'after_setup_theme', 'bellezashop_setup' );
