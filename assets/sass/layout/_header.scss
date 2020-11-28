@@ -44,3 +44,32 @@
     }
   }
 }
+
+/**
+ * Menu toggle button
+ */
+.sc-header-menu-toggle {
+  display: block;
+
+  button {
+    display: flex;
+    align-items: center;
+    color: $header-menu-toggle-btn-colour;
+    transition: $header-menu-toggle-btn-transition;
+
+    @include hover-focus {
+      color: $header-menu-toggle-btn-hover-colour;
+      outline: $header-menu-toggle-btn-outline;
+    }
+  }
+
+  svg {
+    fill: currentColor;
+    width: $header-menu-toggle-btn-svg-w;
+    height: $header-menu-toggle-btn-svg-h;
+  }
+
+  @media(min-width: $break-lg) {
+    display: none;
+  }
+}

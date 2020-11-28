@@ -654,4 +654,31 @@ a:hover, a:focus {
   color: #002d70;
 }
 
+/**
+ * Menu toggle button
+ */
+.sc-header-menu-toggle {
+  display: block;
+}
+.sc-header-menu-toggle button {
+  display: flex;
+  align-items: center;
+  color: #002d70;
+  transition: 0.25s ease all;
+}
+.sc-header-menu-toggle button:hover, .sc-header-menu-toggle button:focus {
+  color: #1a202d;
+  outline: none;
+}
+.sc-header-menu-toggle svg {
+  fill: currentColor;
+  width: 1.25rem;
+  height: 1.25rem;
+}
+@media (min-width: 1024px) {
+  .sc-header-menu-toggle {
+    display: none;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
