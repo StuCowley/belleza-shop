@@ -1,0 +1,10 @@
+// IMPORT FONT URL
+//
+// If the $font-url has value add an @import to the top of the stylesheet so 
+// that the browser will load any custom fonts from a URL.
+//
+// Version: 1.0.0
+
+@if variable-exists(font-url) {
+  @import url($font-url);
+}
