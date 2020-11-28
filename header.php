@@ -21,3 +21,5 @@
 </head>
 <body>
   <?php wp_body_open(); ?>
+
+  <p>Header</p>

@@ -11,3 +11,11 @@
  * @subpackage bellezashop
  * @since 1.0.0
  */
+
+get_header();
+
+?>
+
+<h1>Index</h1>
+
+<?php get_footer();

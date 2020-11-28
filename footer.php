@@ -12,7 +12,7 @@
 ?>
 
   <footer>
-    <!-- CONTENTS -->
+    <p>Footer</p>
   </footer>
 
   <?php wp_footer(); ?>
