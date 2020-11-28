@@ -22,7 +22,6 @@ if ( ! function_exists( 'bellezashop_setup' ) ) {
      */
     add_theme_support( 'title-tag' );
 
-
     /**
      * Register the header and footer menus
      */
@@ -32,7 +31,6 @@ if ( ! function_exists( 'bellezashop_setup' ) ) {
         'footer'  =>  esc_html__( 'Footer menu', 'bellezashop' ),
       )
     );
-
 
     /**
      * Add support for the custom logo
@@ -50,7 +48,6 @@ if ( ! function_exists( 'bellezashop_setup' ) ) {
         'unlink-homepage-logo'  => false,
       )
     );
-
 
     /**
      * Load the required the WooCommerce functions file
