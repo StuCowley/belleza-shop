@@ -73,3 +73,32 @@
     display: none;
   }
 }
+
+/**
+ * Set the header menu
+ *
+ * Version: 1.0.0
+ */
+
+ .sc-header-menu {
+  display: none;
+  flex-grow: 1;
+  width: 100%;
+  margin-top: $header-menu-mt-sm;
+
+  @media(min-width: $break-lg) {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: auto;
+    margin-top: $header-menu-mt-lg;
+  }
+}
+
+.sc-header-menu-open {
+  display: block;
+
+  @media(min-width: $break-lg) {
+    display: flex;
+  }
+}

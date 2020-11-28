@@ -682,4 +682,34 @@ a:hover, a:focus {
   }
 }
 
+/**
+ * Set the header menu
+ *
+ * Version: 1.0.0
+ */
+.sc-header-menu {
+  display: none;
+  flex-grow: 1;
+  width: 100%;
+  margin-top: 1rem;
+}
+@media (min-width: 1024px) {
+  .sc-header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: auto;
+    margin-top: 0;
+  }
+}
+
+.sc-header-menu-open {
+  display: block;
+}
+@media (min-width: 1024px) {
+  .sc-header-menu-open {
+    display: flex;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
