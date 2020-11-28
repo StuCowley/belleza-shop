@@ -58,6 +58,17 @@ if ( ! function_exists( 'bellezashop_setup' ) ) {
 add_action( 'after_setup_theme', 'bellezashop_setup' );
 
 /**
+ * Enqueue scripts and styles
+ * 
+ * @since 1.0.0
+ * @return void
+ */
+function bellezashop_scripts() {
+  wp_enqueue_style( 'bellezashop-style', get_template_directory_uri() . '/style.css' );
+}
+add_action( 'wp_enqueue_scripts', 'bellezashop_scripts' );
+
+/**
  * Enable SVG upload
  * 
  * Enables the ability to upload images that use the .svg extension. This 
