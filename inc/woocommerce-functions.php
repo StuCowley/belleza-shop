@@ -29,3 +29,11 @@ function bellezashop_woocommerce_setup() {
   add_theme_support( 'wc-product-gallery-slider' );
 }
 add_filter( 'after_setup_theme', 'belleza_woocommerce_setup' );
+
+/**
+ * Removes the page title on the shop page
+ */
+function bellezashop_remove_wc_page_title() {
+  return boolval( !is_shop() );
+}
+add_filter( 'woocommerce_show_page_title', 'bellezashop_remove_wc_page_title' );
