@@ -22,6 +22,12 @@ $gray-900:                                      hsl(221, 27%, 14%) !default;
 $black:                                         hsl(0, 0%, 0%) !default;
 $white:                                         hsl(0, 0%, 100%) !default;
 
+//*** States Colours
+$colour-info:                                   hsl(217, 92%, 60%) !default;
+$colour-success:                                hsl(160, 84%, 39%) !default;
+$colour-warning:                                hsl(43, 97%, 56%) !default;
+$colour-error:                                  hsl(0, 85%, 60%) !default;
+
 //*** Branding
 $branding-primary:                              hsl(216, 100%, 22%) !default;
 $branding-secondary:                            hsl(359, 68%, 89%) !default;
