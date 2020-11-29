@@ -1,0 +1,22 @@
+/**
+ * Set the page content container
+ */
+.sc-page-content {
+  @include padding-x(
+    $page-content-padding-x, 
+    $page-content-padding-x
+  );
+  @include margin-x(
+    $page-content-margin-x, 
+    $page-content-margin-x
+  );
+  
+  max-width: $page-content-max-w;
+
+  @media(min-width: $break-lg) {
+    @include padding-x(
+      $page-content-padding-x-lg, 
+      $page-content-padding-x-lg
+    );
+  }
+}
