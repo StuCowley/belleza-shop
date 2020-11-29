@@ -586,7 +586,7 @@ video {
  */
 body {
   background: white;
-  color: #1a202d;
+  color: #4b5668;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
 }
@@ -649,7 +649,7 @@ a:hover, a:focus {
   opacity: 0.5;
 }
 .sc-site-branding a {
-  color: #1a202d;
+  color: #4b5668;
 }
 .sc-site-branding a:hover, .sc-site-branding a:focus {
   color: #002d70;
