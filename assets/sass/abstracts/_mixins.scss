@@ -114,3 +114,24 @@
     outline: $visited-outline;
   }
 }
+
+
+// NOTICE BOX
+//
+// Sets up a WooCommerce notice box.
+//
+// Version: 1.0.0
+
+@mixin wc-notice-box(
+  $padding-y: 1rem,
+  $padding-x: 0.875rem,
+  $border-radius: 0.2rem,
+  $border: 2px solid transparent,
+  $border-left-width: 8px
+) {
+  padding: $padding-y $padding-x;
+  border-radius: $border-radius;
+  border: $border;
+  border-left-width: $border-left-width;
+  font-weight: 700;
+}
