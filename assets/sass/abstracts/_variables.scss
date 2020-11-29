@@ -28,6 +28,13 @@ $colour-success:                                hsl(160, 84%, 39%) !default;
 $colour-warning:                                hsl(43, 97%, 56%) !default;
 $colour-error:                                  hsl(0, 85%, 60%) !default;
 
+$state-colours:(
+  'info':     $colour-info,
+  'success':  $colour-success,
+  'warning':  $colour-warning,
+  'error':    $colour-error
+) !default;
+
 //*** Branding
 $branding-primary:                              hsl(216, 100%, 22%) !default;
 $branding-secondary:                            hsl(359, 68%, 89%) !default;
