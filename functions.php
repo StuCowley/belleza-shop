@@ -23,6 +23,11 @@ if ( ! function_exists( 'bellezashop_setup' ) ) {
     add_theme_support( 'title-tag' );
 
     /**
+     * Add support for WooCommerce
+     */
+    add_theme_support( 'woocommerce' );
+
+    /**
      * Register the header and footer menus
      */
     register_nav_menus(
