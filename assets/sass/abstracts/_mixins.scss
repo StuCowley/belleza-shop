@@ -123,15 +123,16 @@
 // Version: 1.0.0
 
 @mixin wc-notice-box(
-  $padding-y: 1rem,
-  $padding-x: 0.875rem,
-  $border-radius: 0.2rem,
-  $border: 2px solid transparent,
-  $border-left-width: 8px
+  $padding-y: $wc-notice-box-py,
+  $padding-x: $wc-notice-box-px,
+  $border-radius: $wc-notice-box-border-r,
+  $border: $wc-notice-box-border,
+  $border-left-width: $wc-notice-box-border-l-width,
+  $font-weight: $wc-notice-box-font-weight
 ) {
   padding: $padding-y $padding-x;
   border-radius: $border-radius;
   border: $border;
   border-left-width: $border-left-width;
-  font-weight: 700;
+  font-weight: $font-weight;
 }
