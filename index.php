@@ -14,8 +14,13 @@
 
 get_header();
 
-?>
+if ( have_posts() ) {
+  
+  // Loop posts loop
+  while( have_posts() ) {
+    the_post();
+    the_content();
+  }
 
-<h1>Index</h1>
-
-<?php get_footer();
+}
+get_footer();
