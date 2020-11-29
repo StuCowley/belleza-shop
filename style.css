@@ -770,29 +770,26 @@ a:hover, a:focus {
 }
 
 /**
- * Set each notice box's respective border and colour.
+ * Create an each loop to loop through each colour state to set the state class 
+ * name, border colour and state colour values.
  *
  * Version: 1.0.0
  */
-/** Info */
 .woocommerce-info {
   border-color: #3b83f7;
   color: #3b83f7;
 }
 
-/** Success */
 .woocommerce-success {
   border-color: #10b77f;
   color: #10b77f;
 }
 
-/** Warning */
 .woocommerce-warning {
   border-color: #fcbe22;
   color: #fcbe22;
 }
 
-/** Error */
 .woocommerce-error {
   border-color: #f04242;
   color: #f04242;

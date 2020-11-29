@@ -22,31 +22,15 @@
 }
 
 /**
- * Set each notice box's respective border and colour.
+ * Create an each loop to loop through each colour state to set the state class 
+ * name, border colour and state colour values.
  *
  * Version: 1.0.0
  */
 
-/** Info */
-.woocommerce-info {
-  border-color: $colour-info;
-  color: $colour-info
-}
-
-/** Success */
-.woocommerce-success {
-  border-color: $colour-success;
-  color: $colour-success;
-}
-
-/** Warning */
-.woocommerce-warning {
-  border-color: $colour-warning;
-  color: $colour-warning;
-}
-
-/** Error */
-.woocommerce-error {
-  border-color: $colour-error;
-  color: $colour-error;
+@each $colour-name, $colour-value in $state-colours {
+  .woocommerce-#{$colour-name} {
+    border-color: $colour-value;
+    color: $colour-value;
+  }
 }
