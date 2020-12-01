@@ -17,19 +17,19 @@ if ( have_rows( 'hero_slide' ) ) :
     if ( $bgImg ) {
 ?>
 
-<section style="background-image: url('<?php echo $bgImg; ?>');">
+<section class="sc-hero-feature" style="background-image: url('<?php echo $bgImg; ?>');">
 
 <?php 
 // Else if there is no background image applied, use the set background colour
 } elseif( $bgColour ) { 
 ?>
 
-<section style="background-color: <?php echo $bgColour; ?>">
+<section class="sc-hero-feature" style="background-color: <?php echo $bgColour; ?>">
 
 <?php } ?>
   
   <!-- ADD HERO MARKUP HERE -->
-</section>
+</section><!-- /.sc-hero-feature -->
 
 <?php
 endwhile;
