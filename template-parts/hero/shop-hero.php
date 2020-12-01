@@ -49,6 +49,7 @@ if ( have_rows( 'hero_slide' ) ) :
       <?php echo $headlineParagraph; ?>
     </p>
 
+    <?php if ( $primaryBtnTitle && $secondaryBtnTitle ) { ?>
     <div class="sc-hero-feature-btn-group">
       <div>
         <a href="<?php echo $primaryBtnLink; ?>" class="sc-hero-feature-btn sc-hero-feature-btn-primary">
@@ -64,6 +65,7 @@ if ( have_rows( 'hero_slide' ) ) :
         </a>
       </div>
     </div><!-- /.sc-hero-feature-btn-group -->
+    <?php } ?>
   </div><!-- /.sc-hero-feature-container -->
 </section><!-- /.sc-hero-feature -->
 
