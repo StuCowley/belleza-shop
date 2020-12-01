@@ -631,7 +631,7 @@ a:hover, a:focus {
   max-width: 48rem;
   margin-left: auto;
   margin-right: auto;
-  letter-spacing: -0.025em;
+  letter-spacing: 0.025em;
   font-size: 2.25rem;
   font-weight: 800;
   line-height: 2.25rem;
@@ -751,7 +751,7 @@ a:hover, a:focus {
 }
 .sc-hero-feature-btn-primary:hover, .sc-hero-feature-btn-primary:focus {
   background-color: #f6d0d1;
-  color: white;
+  color: #002d70;
 }
 
 /**
@@ -760,14 +760,14 @@ a:hover, a:focus {
  * Version: 1.0.0
  */
 .sc-hero-feature-btn-secondary {
-  background: transparent;
-  border-color: #002d70;
+  background: white;
+  border-color: transparent;
   color: #002d70;
 }
 .sc-hero-feature-btn-secondary:hover, .sc-hero-feature-btn-secondary:focus {
   background-color: #f6d0d1;
   border-color: #f6d0d1;
-  color: white;
+  color: #002d70;
 }
 
 .sc-header {

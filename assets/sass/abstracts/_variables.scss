@@ -189,7 +189,7 @@ $hero-feature-text-align-lg:                    left !default;
 $hero-feature-h2-max-w-sml:                     48rem !default;
 $hero-feature-h2-mx-sm:                         auto !default;
 $hero-feature-h2-mx-lg:                         0 !default;
-$hero-feature-h2-tracking:                      -0.025em !default;
+$hero-feature-h2-tracking:                      0.025em !default;
 $hero-feature-h2-font-size:                     2.25rem !default;
 $hero-feature-h2-font-size-sm:                  3rem !default;
 $hero-feature-h2-font-weight:                   800 !default;
@@ -232,16 +232,16 @@ $hero-btn-primary-bg:                           $branding-primary !default;
 $hero-btn-primary-colour:                       $white !default;
 
 $hero-btn-primary-bg-hover:                     $branding-secondary !default;
-$hero-btn-primary-colour-hover:                 $white !default;
+$hero-btn-primary-colour-hover:                 $branding-primary !default;
 
 //*** Secondary Hero Button
-$hero-btn-secondary-bg:                         transparent !default;
-$hero-btn-secondary-border-colour:              $branding-primary !default;
+$hero-btn-secondary-bg:                         $white !default;
+$hero-btn-secondary-border-colour:              transparent !default;
 $hero-btn-secondary-colour:                     $branding-primary !default;
 
 $hero-btn-secondary-bg-hover:                   $branding-secondary !default;
 $hero-btn-secondary-border-hover:               $branding-secondary !default;
-$hero-btn-secondary-colour-hover:               $white !default;
+$hero-btn-secondary-colour-hover:               $branding-primary !default;
 
 
 //---------- PAGE CONTENT
