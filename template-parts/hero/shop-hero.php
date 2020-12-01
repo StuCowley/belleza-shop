@@ -39,7 +39,6 @@ if ( have_rows( 'hero_slide' ) ) :
 
 <?php } ?>
   
-  <!-- ADD HERO MARKUP HERE -->
   <div class="sc-hero-feature-container">
     <h2 style="color: <?php echo $bgTextColour; ?>">
       <?php echo $headlineHeading; ?>
