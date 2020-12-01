@@ -44,18 +44,20 @@ if ( have_rows( 'hero_slide' ) ) :
       <?php echo $headlineHeading; ?>
     </h2>
 
-    <p>
+    <p style="color: <?php echo $bgTextColour; ?>">
       <?php echo $headlineParagraph; ?>
     </p>
 
-    <?php if ( $primaryBtnTitle && $secondaryBtnTitle ) { ?>
+    <?php if ( $primaryBtnTitle ) { ?>
     <div class="sc-hero-feature-btn-group">
       <div>
         <a href="<?php echo $primaryBtnLink; ?>" class="sc-hero-feature-btn sc-hero-feature-btn-primary">
           <?php echo $primaryBtnTitle; ?>
         </a>
       </div>
+    <?php } ?>
 
+    <?php if ( $secondaryBtnTitle )  { ?>
       <span></span>
 
       <div>
