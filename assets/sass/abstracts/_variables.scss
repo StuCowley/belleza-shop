@@ -44,12 +44,11 @@ $body-bg:                                       $white !default;
 // ---------- TYPOGRAPHY
 
 //*** Font URL
-// The $font-url needs to be commented out if no font url is to be used.
 
-// $font-url:                                   'https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap;
+$font-url:                                   'https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap' !default;
 
 $font-sans-serif:                               system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-$font-base:                                     $font-sans-serif !default;
+$font-base:                                     'Quicksand', $font-sans-serif !default;
 
 //*** Font Sizes
 $font-size-xs:                                  0.75rem !default;
