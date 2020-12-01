@@ -611,6 +611,165 @@ a:hover, a:focus {
   outline: none;
 }
 
+/**
+ * Set the featured hero
+ *
+ * Version: 1.0.0
+ */
+.sc-hero-feature {
+  width: 100%;
+  padding: 2.5rem 1rem;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  color: #728297;
+  text-align: center;
+}
+.sc-hero-feature h2 {
+  max-width: 48rem;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: -0.025em;
+  font-size: 2.25rem;
+  font-weight: 800;
+  line-height: 2.25rem;
+  color: #2d3648;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .sc-hero-feature h2 {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+  }
+}
+.sc-hero-feature p {
+  margin-top: 0.75rem;
+  font-size: 1rem;
+  text-align: center;
+}
+@media (min-width: 640px) {
+  .sc-hero-feature {
+    padding: 3rem 1.5rem;
+  }
+  .sc-hero-feature h2 {
+    line-height: 1;
+    font-size: 3rem;
+  }
+  .sc-hero-feature p {
+    max-width: 36rem;
+    margin: 1.25rem auto 0 auto;
+    font-size: 1.25rem;
+  }
+}
+@media (min-width: 1024px) {
+  .sc-hero-feature {
+    padding: 5rem 2rem;
+    text-align: center;
+  }
+  .sc-hero-feature p {
+    margin-left: 0;
+    margin-right: 0;
+    text-align: left;
+  }
+}
+@media (min-width: 1280px) {
+  .sc-hero-feature {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+/**
+ * Set the feature hero container
+ *
+ * Version: 1.0.0
+ */
+.sc-hero-feature-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+}
+
+/**
+ * Set the feature hero button group
+ *
+ * Version: 1.0.0
+ */
+.sc-hero-feature-btn-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.25rem;
+}
+.sc-hero-feature-btn-group span {
+  margin-top: 0.75rem;
+  margin-left: 0.75rem;
+}
+@media (min-width: 1024px) {
+  .sc-hero-feature-btn-group {
+    justify-content: start;
+  }
+}
+
+/**
+ * Set the feature hero buttons
+ *
+ * Version: 1.0.0
+ */
+.sc-hero-feature-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.75rem 2rem;
+  border-radius: 0.25rem;
+  border: 1px solid transparent;
+  line-height: 1.5rem;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.sc-hero-feature-btn:focus {
+  outline: none;
+}
+@media (min-width: 768px) {
+  .sc-hero-feature-btn {
+    padding: 0.75rem 2.5rem;
+  }
+}
+
+/**
+ * Set the hero primary button
+ *
+ * Version: 1.0.0
+ */
+.sc-hero-feature-btn-primary {
+  background-color: #002d70;
+  color: white;
+}
+.sc-hero-feature-btn-primary:hover, .sc-hero-feature-btn-primary:focus {
+  background-color: #f6d0d1;
+  color: white;
+}
+
+/**
+ * Set the hero secondary button
+ *
+ * Version: 1.0.0
+ */
+.sc-hero-feature-btn-secondary {
+  background: transparent;
+  border-color: #002d70;
+  color: #002d70;
+}
+.sc-hero-feature-btn-secondary:hover, .sc-hero-feature-btn-secondary:focus {
+  background-color: #f6d0d1;
+  border-color: #f6d0d1;
+  color: white;
+}
+
 .sc-header {
   margin-left: auto;
   margin-right: auto;

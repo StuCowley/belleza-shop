@@ -20,6 +20,9 @@ Text Domain: bellezashop
 @import 'base/typography';
 @import 'base/links';
 
+// COMPONENTS
+@import 'components/shop-hero.scss';
+
 // LAYOUT
 @import 'layout/header';
 @import 'layout/page';
