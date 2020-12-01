@@ -1,0 +1,166 @@
+/**
+ * Set the featured hero
+ *
+ * Version: 1.0.0
+ */
+
+ .sc-hero-feature {
+  width: 100%;
+  padding: $hero-feature-p;
+  margin: auto;
+  background-repeat: $hero-feature-bg-repeat;
+  background-size: $hero-feature-bg-size;
+  background-position: $hero-feature-bg-pos;
+  background-blend-mode: $hero-feature-bg-blend;
+  color: $hero-feature-colour;
+  text-align: $hero-feature-text-align;
+
+  h2 {
+    max-width: $hero-feature-h2-max-w-sml;
+    margin-left: $hero-feature-h2-mx-sm;
+    margin-right: $hero-feature-h2-mx-sm;
+    letter-spacing: $hero-feature-h2-tracking;
+    font-size: $hero-feature-h2-font-size;
+    font-weight: $hero-feature-h2-font-weight;
+    line-height: $hero-feature-h2-leading;
+    color: $hero-feature-h2-colour;
+    text-align: $hero-feature-text-align-sm;
+
+    @media(min-width: $break-lg) {
+      margin-left: $hero-feature-h2-mx-lg;
+      margin-right: $hero-feature-h2-mx-lg;
+      text-align: $hero-feature-text-align-lg;
+    }
+  }
+
+  p {
+    margin-top: $hero-feature-p-mt;
+    font-size: $hero-feature-p-font-size;
+    text-align: center;
+  }
+
+  @media(min-width: $break-sm) {
+    padding: $hero-feature-py-sm $hero-feature-px-sm;
+
+    h2 {
+      line-height: $hero-feature-h2-leading-sm;
+      font-size: $hero-feature-h2-font-size-sm;
+    }
+
+    p {
+      max-width: $hero-feature-p-max-width-sm;
+      margin: $hero-feature-p-m;
+      font-size: $hero-feature-p-font-size-sm;
+    }
+  }
+
+  @media(min-width: $break-lg) {
+    padding: $hero-feature-py-lg $hero-feature-px-lg;
+    text-align: $hero-feature-text-align;
+    
+    p {
+      margin-left: 0;
+      margin-right: 0;
+      text-align: left;
+    }
+  }
+
+  @media(min-width: $break-xl) {
+    padding-top: $hero-feature-py-xl;
+    padding-bottom: $hero-feature-py-xl;
+  }
+}
+
+/**
+ * Set the feature hero container
+ *
+ * Version: 1.0.0
+ */
+
+.sc-hero-feature-container {
+  @include margin-x($hero-feature-container-mx, $hero-feature-container-mx);
+  max-width: $hero-feature-container-max-w;
+}
+
+/**
+ * Set the feature hero button group
+ *
+ * Version: 1.0.0
+ */
+
+.sc-hero-feature-btn-group {
+  display: flex;
+  justify-content: center;
+  margin-top: $hero-feature-btn-group-mt;
+
+  span {
+    margin-top: $hero-feature-btn-group-span-mt;
+    margin-left: $hero-feature-btn-group-span-mt;
+  }
+
+  @media(min-width: $break-lg) {
+    justify-content: start;
+  }
+}
+
+/**
+ * Set the feature hero buttons
+ *
+ * Version: 1.0.0
+ */
+
+.sc-hero-feature-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: $hero-btn-py $hero-btn-px;
+  border-radius: $hero-btn-border-r;
+  border: $hero-btn-border;
+  line-height: $hero-btn-leading;
+  font-weight: $hero-btn-font-weight;
+  font-size: $hero-btn-font-size;
+
+  @include focus {
+    outline: $hero-btn-outline;
+  }
+
+  @media(min-width: $break-md) {
+    padding: $hero-btn-py-md $hero-btn-px-md;
+  }
+}
+
+/**
+ * Set the hero primary button
+ *
+ * Version: 1.0.0
+ */
+
+.sc-hero-feature-btn-primary {
+  background-color: $hero-btn-primary-bg;
+  color: $hero-btn-primary-colour;
+
+  @include hover-focus {
+    background-color: $hero-btn-primary-bg-hover;
+    color: $hero-btn-primary-colour-hover;
+  }
+}
+
+/**
+ * Set the hero secondary button
+ *
+ * Version: 1.0.0
+ */
+
+.sc-hero-feature-btn-secondary {
+  background: $hero-btn-secondary-bg;
+  border-color: $hero-btn-secondary-border-colour;
+  color: $hero-btn-secondary-colour;
+
+  @include hover-focus {
+    background-color: $hero-btn-secondary-bg-hover;
+    border-color: $hero-btn-secondary-border-hover;
+    color: $hero-btn-secondary-colour-hover;
+  }
+}
