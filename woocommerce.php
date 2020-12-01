@@ -8,6 +8,8 @@
  */
 
 get_header();
+
+get_template_part( 'template-parts/hero/shop-hero' );
 ?>
 
 <div class="sc-page-content">
