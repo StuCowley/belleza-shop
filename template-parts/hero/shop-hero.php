@@ -10,6 +10,8 @@
 if ( have_rows( 'hero_slide' ) ) :
   while ( have_rows( 'hero_slide' ) ) : the_row();
     
+    $headlineHeading = get_sub_field( 'headline_heading' );
+    $headlineParagraph = get_sub_field( 'headline_paragraph' );
     $bgImg = get_sub_field( 'background_image' );
     $bgColour = get_sub_field( 'background_colour' );
 
@@ -29,6 +31,15 @@ if ( have_rows( 'hero_slide' ) ) :
 <?php } ?>
   
   <!-- ADD HERO MARKUP HERE -->
+  <div class="sc-hero-feature-container">
+    <h2>
+      <?php echo $headlineHeading; ?>
+    </h2>
+
+    <p>
+      <?php echo $headlineParagraph; ?>
+    </p>
+  </div><!-- /.sc-hero-feature-container -->
 </section><!-- /.sc-hero-feature -->
 
 <?php
