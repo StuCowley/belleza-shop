@@ -12,14 +12,23 @@ if ( have_rows( 'hero_slide' ) ) :
     
     $headlineHeading = get_sub_field( 'headline_heading' );
     $headlineParagraph = get_sub_field( 'headline_paragraph' );
+    
+    $primaryBtnTitle = get_sub_field( 'primary_button_title' );
+    $primaryBtnLink = get_sub_field( 'primary_button_link' );
+
+    $secondaryBtnTitle = get_sub_field( 'secondary_button_title' );
+    $secondaryBtnLink = get_sub_field( 'secondary_button_link' );
+    
     $bgImg = get_sub_field( 'background_image' );
+    $bgImgOverlay = get_sub_field( 'background_overlay' );
     $bgColour = get_sub_field( 'background_colour' );
+    $bgTextColour = get_sub_field( 'background_text_colour' );
 
     // If the hero has a background image, echo the image
     if ( $bgImg ) {
 ?>
 
-<section class="sc-hero-feature" style="background-image: url('<?php echo $bgImg; ?>');">
+<section class="sc-hero-feature" style="background-image: url('<?php echo $bgImg; ?>'); background-color: <?php echo $bgImgOverlay; ?>; color: <?php echo $bgTextColour; ?> !important;">
 
 <?php 
 // Else if there is no background image applied, use the set background colour
@@ -32,13 +41,29 @@ if ( have_rows( 'hero_slide' ) ) :
   
   <!-- ADD HERO MARKUP HERE -->
   <div class="sc-hero-feature-container">
-    <h2>
+    <h2 style="color: <?php echo $bgTextColour; ?>">
       <?php echo $headlineHeading; ?>
     </h2>
 
     <p>
       <?php echo $headlineParagraph; ?>
     </p>
+
+    <div class="sc-hero-feature-btn-group">
+      <div>
+        <a href="<?php echo $primaryBtnLink; ?>" class="sc-hero-feature-btn sc-hero-feature-btn-primary">
+          <?php echo $primaryBtnTitle; ?>
+        </a>
+      </div>
+
+      <span></span>
+
+      <div>
+        <a href="<?php echo $secondaryBtnLink ?>" class="sc-hero-feature-btn sc-hero-feature-btn-secondary">
+          <?php echo $secondaryBtnTitle ?>
+        </a>
+      </div>
+    </div><!-- /.sc-hero-feature-btn-group -->
   </div><!-- /.sc-hero-feature-container -->
 </section><!-- /.sc-hero-feature -->
 
