@@ -127,12 +127,17 @@
   $padding-x: $wc-notice-box-px,
   $border-radius: $wc-notice-box-border-r,
   $border: $wc-notice-box-border,
+  $font-weight: $wc-notice-box-font-weight,
   $border-left-width: $wc-notice-box-border-l-width,
-  $font-weight: $wc-notice-box-font-weight
 ) {
   padding: $padding-y $padding-x;
   border-radius: $border-radius;
   border: $border;
   border-left-width: $border-left-width;
   font-weight: $font-weight;
+  text-align: center;
+
+  @media(min-width: $break-lg) {
+    text-align: left;
+  }
 }

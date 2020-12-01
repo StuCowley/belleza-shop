@@ -767,6 +767,15 @@ a:hover, a:focus {
   border: 1px solid transparent;
   border-left-width: 6px;
   font-weight: 400;
+  text-align: center;
+}
+@media (min-width: 1024px) {
+  .woocommerce-info,
+.woocommerce-success,
+.woocommerce-warning,
+.woocommerce-error {
+    text-align: left;
+  }
 }
 
 /**
