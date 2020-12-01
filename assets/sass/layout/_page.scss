@@ -6,10 +6,8 @@
     $page-content-padding-x, 
     $page-content-padding-x
   );
-  @include margin-x(
-    $page-content-margin-x, 
-    $page-content-margin-x
-  );
+
+  margin: $page-content-margin-y $page-content-margin-x;
   
   max-width: $page-content-max-w;
 
