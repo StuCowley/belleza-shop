@@ -1,0 +1,24 @@
+/**
+ * Sets the display of the footer
+ *
+ * Version: 1.0.0
+ */
+
+.sc-page-footer {
+  background-color: $footer-bg-colour;
+  color: $footer-colour;
+}
+
+/**
+ * Sets the display of the footer container
+ *
+ * Version: 1.0.0
+ */
+
+.sc-page-footer-container {
+  padding: $footer-padding-y-sm $footer-padding-x-sm;
+
+  @media(min-width: $break-lg) {
+    padding: $footer-padding-y-lg $footer-padding-x-lg;
+  }
+}
