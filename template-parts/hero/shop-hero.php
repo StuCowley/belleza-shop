@@ -27,51 +27,54 @@ if ( have_rows( 'hero_slide' ) ) :
     // If the hero has a background image, echo the image
     if ( $bgImg ) {
 ?>
+<div id="shop-hero-slider">
+  <section class="sc-hero-feature" style="background-image: url('<?php echo $bgImg; ?>'); background-color: <?php echo $bgImgOverlay; ?>; color: <?php echo $bgTextColour; ?> !important;">
 
-<section class="sc-hero-feature" style="background-image: url('<?php echo $bgImg; ?>'); background-color: <?php echo $bgImgOverlay; ?>; color: <?php echo $bgTextColour; ?> !important;">
+  <?php 
+  // Else if there is no background image applied, use the set background colour
+  } elseif( $bgColour ) { 
+  ?>
 
-<?php 
-// Else if there is no background image applied, use the set background colour
-} elseif( $bgColour ) { 
-?>
+  <section class="sc-hero-feature" style="background-color: <?php echo $bgColour; ?>">
 
-<section class="sc-hero-feature" style="background-color: <?php echo $bgColour; ?>">
+  <?php } ?>
+    <div class="carousel-cell">
+      <div class="sc-hero-feature-container">
+        <h2 style="color: <?php echo $bgTextColour; ?>">
+          <?php echo $headlineHeading; ?>
+        </h2>
 
-<?php } ?>
-  
-  <div class="sc-hero-feature-container">
-    <h2 style="color: <?php echo $bgTextColour; ?>">
-      <?php echo $headlineHeading; ?>
-    </h2>
+        <p style="color: <?php echo $bgTextColour; ?>">
+          <?php echo $headlineParagraph; ?>
+        </p>
 
-    <p style="color: <?php echo $bgTextColour; ?>">
-      <?php echo $headlineParagraph; ?>
-    </p>
+        <?php if ( $primaryBtnTitle ) { ?>
+        <div class="sc-hero-feature-btn-group">
+          <div>
+            <a href="<?php echo $primaryBtnLink; ?>" class="sc-hero-feature-btn sc-hero-feature-btn-primary">
+              <?php echo $primaryBtnTitle; ?>
+            </a>
+          </div>
+        <?php } ?>
 
-    <?php if ( $primaryBtnTitle ) { ?>
-    <div class="sc-hero-feature-btn-group">
-      <div>
-        <a href="<?php echo $primaryBtnLink; ?>" class="sc-hero-feature-btn sc-hero-feature-btn-primary">
-          <?php echo $primaryBtnTitle; ?>
-        </a>
-      </div>
-    <?php } ?>
+        <?php if ( $secondaryBtnTitle )  { ?>
+          <span></span>
 
-    <?php if ( $secondaryBtnTitle )  { ?>
-      <span></span>
+          <div>
+            <a href="<?php echo $secondaryBtnLink ?>" class="sc-hero-feature-btn sc-hero-feature-btn-secondary">
+              <?php echo $secondaryBtnTitle ?>
+            </a>
+          </div>
+        </div><!-- /.sc-hero-feature-btn-group -->
+        <?php } ?>
+      </div><!-- /.sc-hero-feature-container -->
+    </div><!-- /.carousel-cell -->
+  </section><!-- /.sc-hero-feature -->
 
-      <div>
-        <a href="<?php echo $secondaryBtnLink ?>" class="sc-hero-feature-btn sc-hero-feature-btn-secondary">
-          <?php echo $secondaryBtnTitle ?>
-        </a>
-      </div>
-    </div><!-- /.sc-hero-feature-btn-group -->
-    <?php } ?>
-  </div><!-- /.sc-hero-feature-container -->
-</section><!-- /.sc-hero-feature -->
-
-<?php
-endwhile;
-else :
-  // Do something
-endif;
+  <?php
+  endwhile;
+  else :
+    // Do something
+  endif;
+  ?>
+</div><!-- /#shop-hero-slider -->
