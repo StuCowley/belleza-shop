@@ -73,6 +73,13 @@ function bellezashop_scripts() {
     'bellezashop-style', 
     get_template_directory_uri() . '/style.css' 
   );
+
+  // Flickity
+  wp_enqueue_script(
+    'bellezashop-flickity',
+    get_template_directory_uri() . '/assets/js/flickity.min.js',
+    true
+  );
   
   // Orisue UI script
   wp_enqueue_script( 
