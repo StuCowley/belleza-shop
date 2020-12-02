@@ -24,4 +24,17 @@ jQuery(document).ready(function($) {
       $('.sc-header-menu').slideUp(menuToggleAnimationDuration);
     }
   });
+
+  /**
+   * SHOP HERO SLIDER
+   * 
+   * Sets up Flickity for the shop hero slider
+   * 
+   * Version: 1.0.0
+   */
+  $('#shop-hero-slider').flickity({
+    autoPlay: true,
+    wrapAround: true,
+    pageDots: false
+  });
 });
