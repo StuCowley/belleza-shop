@@ -15,6 +15,9 @@ Text Domain: bellezashop
 @import 'abstracts/mixins';
 @import 'abstracts/functions';
 
+// VENDOR
+@import 'vendor/flickity';
+
 // BASE
 @import 'base/reset';
 @import 'base/typography';
