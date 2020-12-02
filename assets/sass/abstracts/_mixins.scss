@@ -129,6 +129,7 @@
   $border: $wc-notice-box-border,
   $font-weight: $wc-notice-box-font-weight,
   $border-left-width: $wc-notice-box-border-l-width,
+  $icon-display: $wc-notice-box-icon-display
 ) {
   padding: $padding-y $padding-x;
   border-radius: $border-radius;
@@ -136,6 +137,10 @@
   border-left-width: $border-left-width;
   font-weight: $font-weight;
   text-align: center;
+
+  &:before {
+    display: $icon-display;
+  }
 
   @media(min-width: $break-lg) {
     text-align: left;
