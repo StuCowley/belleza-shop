@@ -8,16 +8,6 @@
  */
 
 /**
- * Removes default WooCommerce styling
- * 
- * @since 1.0.0
- * @return void
- */
-if ( class_exists( 'Woocommerce' ) ) {
-  add_filter( 'woocommerce_enqueue_styles', '__return_empty_array' );
-}
-
-/**
  * Registers support for WooCommerce features
  * 
  * @since 1.0.0
