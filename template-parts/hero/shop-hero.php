@@ -27,6 +27,7 @@ if ( have_rows( 'hero_slide' ) ) :
     // If the hero has a background image, echo the image
     if ( $bgImg ) {
 ?>
+
 <div id="shop-hero-slider">
   <section class="sc-hero-feature" style="background-image: url('<?php echo $bgImg; ?>'); background-color: <?php echo $bgImgOverlay; ?>; color: <?php echo $bgTextColour; ?> !important;">
 
@@ -73,8 +74,8 @@ if ( have_rows( 'hero_slide' ) ) :
 
   <?php
   endwhile;
-  else :
-    // Do something
   endif;
+  
+  wp_reset_postdata();
   ?>
 </div><!-- /#shop-hero-slider -->
