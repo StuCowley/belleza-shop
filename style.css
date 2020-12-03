@@ -1186,5 +1186,27 @@ a:hover, a:focus {
  *
  * Version: 1.0.0
  */
+/**
+ * GLOBAL BUTTON
+ *
+ * Sets the styles for the main WooCommerce button.
+ *
+ * Version: 1.0.0
+ */
+.button {
+  padding: 1rem 2rem !important;
+  border-radius: 999px !important;
+  background-color: #002d70 !important;
+  color: white !important;
+  letter-spacing: 0.05em;
+  font-weight: 500 !important;
+  text-transform: capitalize;
+  text-align: center;
+  transition: 0.25s ease all !important;
+}
+.button:hover, .button:focus {
+  background-color: #f6d0d1 !important;
+  color: #002d70 !important;
+}
 
 /*# sourceMappingURL=style.css.map */
