@@ -24,7 +24,7 @@ Text Domain: bellezashop
 @import 'base/links';
 
 // COMPONENTS
-@import 'components/shop-hero.scss';
+@import 'components/shop-hero';
 
 // LAYOUT
 @import 'layout/header';
@@ -32,4 +32,4 @@ Text Domain: bellezashop
 @import 'layout/page';
 
 // SHOP
-@import 'shop/notices.scss';
+@import 'shop/notices';
