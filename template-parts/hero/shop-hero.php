@@ -75,7 +75,5 @@ if ( have_rows( 'hero_slide' ) ) :
   <?php
   endwhile;
   endif;
-  
-  wp_reset_postdata();
   ?>
 </div><!-- /#shop-hero-slider -->
