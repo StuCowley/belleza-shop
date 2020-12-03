@@ -38,3 +38,14 @@ remove_action(
   'woocommerce_before_shop_loop',
   'woocommerce_result_count', 20
 );
+
+/**
+ * Removes product sorting dropdown
+ * 
+ * @since 1.0.0
+ * @return void
+ */
+remove_action(
+  'woocommerce_before_shop_loop',
+  'woocommerce_catalog_ordering', 30
+);
