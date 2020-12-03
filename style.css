@@ -1216,5 +1216,21 @@ a:hover, a:focus {
  *
  * Version: 1.0.0
  */
+/**
+ * ON SALE BADGE
+ *
+ * Styles the "On Sale" badge that is displayed on all product and shop pages
+ *
+ * Version: 1.0.0
+ */
+span.onsale {
+  padding: 0 1.25rem !important;
+  border-radius: 0 !important;
+  vertical-align: middle !important;
+  background-color: #2d3648 !important;
+  letter-spacing: 0.175em !important;
+  font-weight: 500 !important;
+  text-transform: uppercase !important;
+}
 
 /*# sourceMappingURL=style.css.map */
