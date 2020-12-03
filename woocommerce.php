@@ -12,7 +12,7 @@ get_header();
 get_template_part( 'template-parts/hero/shop-hero' );
 ?>
 
-<div class="sc-page-content">
+<div class="woocommerce sc-page-content">
   <?php woocommerce_content(); ?>
 </div><!-- /.sc-page-content -->
 
