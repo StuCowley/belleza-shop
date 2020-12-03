@@ -5,3 +5,18 @@
  *
  * Version: 1.0.0
  */
+
+/**
+ * GLOBAL PRICE
+ *
+ * Sets the styles for the .price span class. This is for the global price 
+ * display.
+ *
+ * Version: 1.0.0
+ */
+
+.price {
+  span {
+    color: $gray-500;
+  }
+}
