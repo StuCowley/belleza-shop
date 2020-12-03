@@ -27,3 +27,14 @@ function bellezashop_remove_wc_page_title() {
   return boolval( !is_shop() );
 }
 add_filter( 'woocommerce_show_page_title', 'bellezashop_remove_wc_page_title' );
+
+/**
+ * Removes "Showing all X results" message on the product archive
+ * 
+ * @since 1.0.0
+ * @return void
+ */
+remove_action( 
+  'woocommerce_before_shop_loop',
+  'woocommerce_result_count', 20
+);
