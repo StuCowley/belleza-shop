@@ -1145,5 +1145,19 @@ a:hover, a:focus {
  *
  * Version: 1.0.0
  */
+.products {
+  letter-spacing: 0.05em;
+  font-weight: 700;
+}
+.products a {
+  color: #1a202d;
+}
+.products a:hover img {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-timing-function: ease-in-out !important;
+  transition-duration: 0.25s;
+  transform: scale(1.075);
+}
 
 /*# sourceMappingURL=style.css.map */

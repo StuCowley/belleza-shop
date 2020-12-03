@@ -8,5 +8,20 @@
  */
 
 .products {
-  
+  letter-spacing: 0.05em;
+  font-weight: 700;
+
+  a {
+    color: $gray-900;
+
+    @include hover {
+      img {
+        transition-property: transform;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-timing-function: ease-in-out !important;
+        transition-duration: 0.25s;
+        transform: scale(1.075);
+      }
+    }
+  }
 }
