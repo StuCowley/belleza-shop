@@ -27,6 +27,7 @@
 
   @include hover-focus {
     background-color: $branding-secondary !important;
-    color: $branding-primary !important
+    color: $branding-primary !important;
+    outline: none !important;
   }
 }

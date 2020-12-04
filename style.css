@@ -1256,6 +1256,7 @@ a:hover, a:focus {
 .button:hover, .button:focus {
   background-color: #f6d0d1 !important;
   color: #002d70 !important;
+  outline: none !important;
 }
 
 /**
