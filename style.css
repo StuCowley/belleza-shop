@@ -1300,5 +1300,16 @@ span.onsale {
  *
  * Version: 1.0.0
  */
+/**
+ * Sets the text input field
+ *
+ * Version: 1.0.0
+ */
+.input-text {
+  border: 1px solid #e0e7f0;
+}
+.input-text:focus {
+  outline: none !important;
+}
 
 /*# sourceMappingURL=style.css.map */

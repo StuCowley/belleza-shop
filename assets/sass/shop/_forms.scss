@@ -6,3 +6,17 @@
  *
  * Version: 1.0.0
  */
+
+/**
+ * Sets the text input field
+ *
+ * Version: 1.0.0
+ */
+
+.input-text {
+  border: 1px solid $gray-300;
+
+  @include focus {
+    outline: none !important;
+  }
+}
