@@ -1168,6 +1168,21 @@ a:hover, a:focus {
  * Version: 1.0.0
  */
 /**
+ * Styles the product summary section.
+ *
+ * Version: 1.0.0
+ */
+.summary h1 {
+  color: #002d70;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.summary p {
+  margin-top: 1rem;
+}
+
+/**
  * PRICING
  *
  * Sets the pricing styles for the store.

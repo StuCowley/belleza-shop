@@ -5,3 +5,22 @@
  *
  * Version: 1.0.0
  */
+
+/**
+ * Styles the product summary section.
+ *
+ * Version: 1.0.0
+ */
+
+.summary {
+  h1 {
+    color: $branding-primary;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    font-size: $font-size-2xl;
+  }
+
+  p {
+    margin-top: 1rem;
+  }
+}
