@@ -1178,6 +1178,11 @@ a:hover, a:focus {
    *
    * Version: 1.0.0
    */
+  /**
+   * Adds spacing to the add to cart and quantity counter sections
+   *
+   * Version: 1.0.0
+   */
 }
 .summary h1 {
   color: #002d70;
@@ -1200,6 +1205,10 @@ a:hover, a:focus {
 }
 .summary .out-of-stock {
   color: #f04242 !important;
+}
+.summary form {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 /**

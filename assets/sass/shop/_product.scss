@@ -44,4 +44,13 @@
   .out-of-stock {
     color: $colour-error !important;
   }
+
+  /**
+   * Adds spacing to the add to cart and quantity counter sections
+   *
+   * Version: 1.0.0
+   */
+  form {
+    @include margin-y(2rem, 2rem);
+  }
 }
