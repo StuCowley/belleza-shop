@@ -23,4 +23,25 @@
   p {
     margin-top: 1rem;
   }
+
+  /**
+   * Sets the stock count message
+   *
+   * Version: 1.0.0
+   */
+  .stock {
+    margin-top: 1rem;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    font-size: $font-size-base !important;
+    text-transform: uppercase;
+  }
+
+  .in-stock {
+    color: $colour-success !important;
+  }
+
+  .out-of-stock {
+    color: $colour-error !important;
+  }
 }

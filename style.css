@@ -1172,6 +1172,13 @@ a:hover, a:focus {
  *
  * Version: 1.0.0
  */
+.summary {
+  /**
+   * Sets the stock count message
+   *
+   * Version: 1.0.0
+   */
+}
 .summary h1 {
   color: #002d70;
   letter-spacing: 0.05em;
@@ -1180,6 +1187,19 @@ a:hover, a:focus {
 }
 .summary p {
   margin-top: 1rem;
+}
+.summary .stock {
+  margin-top: 1rem;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  font-size: 1rem !important;
+  text-transform: uppercase;
+}
+.summary .in-stock {
+  color: #10b77f !important;
+}
+.summary .out-of-stock {
+  color: #f04242 !important;
 }
 
 /**
