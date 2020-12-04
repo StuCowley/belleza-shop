@@ -1178,6 +1178,13 @@ a:hover, a:focus {
 .price span {
   color: #a0aec0;
 }
+.price ins,
+.price del {
+  color: #a0aec0 !important;
+}
+.price ins {
+  text-decoration: none !important;
+}
 
 /**
  * BUTTONS

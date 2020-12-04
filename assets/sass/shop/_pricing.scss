@@ -19,4 +19,13 @@
   span {
     color: $gray-500;
   }
+
+  ins,
+  del {
+    color: $gray-500 !important;
+  }
+
+  ins {
+    text-decoration: none !important;
+  }
 }
