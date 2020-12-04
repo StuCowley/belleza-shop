@@ -1183,6 +1183,12 @@ a:hover, a:focus {
    *
    * Version: 1.0.0
    */
+  /**
+   * Make the quantity counter to match the height of the "Add to Cart" button 
+   * and add seperation from the "Add to Cart" button.
+   *
+   * Version: 1.0.0
+   */
 }
 .summary h1 {
   color: #002d70;
@@ -1209,6 +1215,11 @@ a:hover, a:focus {
 .summary form {
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+.summary .quantity .qty {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  margin-right: 1rem;
 }
 
 /**

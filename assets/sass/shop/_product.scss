@@ -53,4 +53,15 @@
   form {
     @include margin-y(2rem, 2rem);
   }
+
+  /**
+   * Make the quantity counter to match the height of the "Add to Cart" button 
+   * and add seperation from the "Add to Cart" button.
+   *
+   * Version: 1.0.0
+   */
+  .quantity .qty {
+    @include padding-y(0.75rem, 0.75rem);
+    margin-right: 1rem;
+  }
 }
