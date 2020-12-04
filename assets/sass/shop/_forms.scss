@@ -15,8 +15,12 @@
 
 .input-text {
   border: 1px solid $gray-300;
+  color: $gray-500;
 
   @include focus {
     outline: none !important;
+    border-color: $gray-500;
+    color: $gray-700;
+    transition: $link-transition;
   }
 }

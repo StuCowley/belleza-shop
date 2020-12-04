@@ -1307,9 +1307,13 @@ span.onsale {
  */
 .input-text {
   border: 1px solid #e0e7f0;
+  color: #a0aec0;
 }
 .input-text:focus {
   outline: none !important;
+  border-color: #a0aec0;
+  color: #4b5668;
+  transition: 0.25s ease all;
 }
 
 /*# sourceMappingURL=style.css.map */
