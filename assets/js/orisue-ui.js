@@ -33,7 +33,7 @@ jQuery(document).ready(function($) {
    * Version: 1.0.0
    */
   $('#shop-hero-slider').flickity({
-    autoPlay: true,
+    autoPlay: 3000,
     wrapAround: true,
     pageDots: false
   });
