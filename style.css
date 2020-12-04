@@ -1286,7 +1286,8 @@ span.onsale {
 /**
  * FORMS
  *
- * Sets global styles on <form> elements throughout the shop
+ * Sets the styles for form components throughout the shop, i.e. the quantity 
+ * counter.
  *
  * Version: 1.0.0
  */
