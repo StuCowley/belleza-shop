@@ -1387,6 +1387,17 @@ a:hover, a:focus {
 }
 
 /**
+ * Sets the related products styles.
+ */
+.related h2 {
+  margin-bottom: 1rem;
+  letter-spacing: 0.125em;
+  color: #002d70;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+/**
  * PRICING
  *
  * Sets the pricing styles for the store.

@@ -248,3 +248,17 @@
     }
   }
 }
+
+/**
+ * Sets the related products styles.
+ */
+
+.related {
+  h2 {
+    margin-bottom: 1rem;
+    letter-spacing: 0.125em;
+    color: $branding-primary;
+    font-size: $font-size-xl;
+    text-transform: uppercase;
+  }
+}
