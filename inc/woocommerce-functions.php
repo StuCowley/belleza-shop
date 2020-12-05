@@ -50,3 +50,14 @@ remove_action(
   'woocommerce_before_shop_loop',
   'woocommerce_catalog_ordering', 30
 );
+
+/**
+ * Removes product archive "Add to Cart" button
+ * 
+ * @since 1.0.0
+ * @return void
+ */
+remove_action( 
+  'woocommerce_after_shop_loop_item', 
+  'woocommerce_template_loop_add_to_cart', 10
+);
