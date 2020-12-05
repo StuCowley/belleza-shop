@@ -1203,6 +1203,12 @@ a:hover, a:focus {
   font-weight: 700;
   font-size: 1.5rem;
 }
+.summary .woocommerce-review-link {
+  color: #a0aec0;
+}
+.summary .woocommerce-review-link:hover, .summary .woocommerce-review-link:focus {
+  color: #4b5668;
+}
 .summary p {
   margin-top: 1rem;
   line-height: 2;
@@ -1332,6 +1338,52 @@ a:hover, a:focus {
 }
 .comment-text .meta {
   color: #a0aec0 !important;
+}
+
+.comment-respond .comment-reply-title {
+  color: #002d70;
+  letter-spacing: 0.125em;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.comment-respond label {
+  color: #a0aec0;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.comment-respond .comment-form-rating .stars a {
+  margin-top: 0.25rem;
+  color: #4b5668;
+}
+.comment-respond .comment-form-comment textarea {
+  min-height: 10rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid #e0e7f0;
+  background-color: #f8fafc;
+  transition: 0.25s ease all;
+}
+.comment-respond .comment-form-comment textarea:focus {
+  border-color: #728297;
+  outline: none;
+  background-color: white;
+}
+.comment-respond .form-submit input[type=submit] {
+  padding: 0.875rem 2rem !important;
+  border-radius: 999px !important;
+  background-color: #002d70 !important;
+  color: white !important;
+  letter-spacing: 0.05em;
+  font-weight: 500 !important;
+  text-transform: capitalize;
+  text-align: center;
+  transition: 0.25s ease all !important;
+}
+.comment-respond .form-submit input[type=submit]:hover, .comment-respond .form-submit input[type=submit]:focus {
+  background-color: #f6d0d1 !important;
+  color: #002d70 !important;
+  outline: none !important;
 }
 
 /**
