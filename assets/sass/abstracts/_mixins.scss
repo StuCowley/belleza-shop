@@ -123,26 +123,30 @@
 // Version: 1.0.0
 
 @mixin wc-notice-box(
-  $padding-y: $wc-notice-box-py,
-  $padding-x: $wc-notice-box-px,
-  $border-radius: $wc-notice-box-border-r,
-  $border: $wc-notice-box-border,
-  $font-weight: $wc-notice-box-font-weight,
-  $border-left-width: $wc-notice-box-border-l-width,
-  $icon-display: $wc-notice-box-icon-display
+  $padding-y,
+  $padding-x,
+  $border-r,
+  $border-width: 1px,
+  $border-top-width: 3px,
+  $border-style: solid,
+  $border-colour: $gray-300,
+  $bg-colour: $gray-200,
+  $colour: $gray-700,
+  $tracking,
+  $font-weight,
+  $icon-display: none
 ) {
-  padding: $padding-y $padding-x;
-  border-radius: $border-radius;
-  border: $border;
-  border-left-width: $border-left-width;
+  @include padding-x($padding-x, $padding-x);
+  @include padding-y($padding-y, $padding-y);
+  border-radius: $border-r;
+  border: $border-width $border-style $border-colour;
+  border-top-width: $border-top-width;
+  background-color: $bg-colour;
+  color: $colour;
+  letter-spacing: $tracking;
   font-weight: $font-weight;
-  text-align: center;
 
   &:before {
     display: $icon-display;
-  }
-
-  @media(min-width: $break-lg) {
-    text-align: left;
   }
 }

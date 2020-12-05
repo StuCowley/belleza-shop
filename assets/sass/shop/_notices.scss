@@ -3,22 +3,26 @@
  *
  * Sets the default styles for a WooCommerce notice box.
  *
- * The wc-notice-box mixin has 4 arguments with default values. These arguments 
- * are as follows:
- *
- *  $padding-y: 1rem
- *  $padding-x: 0.875rem
- *  $border-radius: 0.25rem
- *  $border: 1px solid transparent
- *  $border-left-width: 6px
- *
  * Version: 1.0.0
  */
 .woocommerce-info,
 .woocommerce-success,
 .woocommerce-warning,
 .woocommerce-error {
-  @include wc-notice-box();
+  @include wc-notice-box(
+    $padding-y: 1rem,
+    $padding-x: 2rem,
+    $border-r: 0.25rem,
+    $tracking: 0.05em,
+    $font-weight: 700,
+    $icon-display: none
+  );
+
+  text-align: center;
+
+  a.button {
+    display: none;
+  }
 }
 
 /**
@@ -30,7 +34,6 @@
 
 @each $colour-name, $colour-value in $state-colours {
   .woocommerce-#{$colour-name} {
-    border-color: $colour-value;
-    color: $colour-value;
+    border-top-color: $colour-value;
   }
 }
