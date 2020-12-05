@@ -1079,7 +1079,8 @@ a:hover, a:focus {
 .woocommerce-info,
 .woocommerce-success,
 .woocommerce-warning,
-.woocommerce-error {
+.woocommerce-error,
+.woocommerce-message {
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 1rem;
@@ -1091,19 +1092,30 @@ a:hover, a:focus {
   color: #4b5668;
   letter-spacing: 0.05em;
   font-weight: 700;
-  text-align: center;
 }
 .woocommerce-info:before,
 .woocommerce-success:before,
 .woocommerce-warning:before,
-.woocommerce-error:before {
+.woocommerce-error:before,
+.woocommerce-message:before {
   display: none;
 }
 .woocommerce-info a.button,
 .woocommerce-success a.button,
 .woocommerce-warning a.button,
-.woocommerce-error a.button {
+.woocommerce-error a.button,
+.woocommerce-message a.button {
   display: none;
+}
+
+.woocommerce-message {
+  border-top-color: #10b77f;
+}
+.woocommerce-message a {
+  color: #4b5668;
+}
+.woocommerce-message a:hover, .woocommerce-message a:focus {
+  color: #0555f5;
 }
 
 /**

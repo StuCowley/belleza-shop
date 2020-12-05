@@ -8,7 +8,8 @@
 .woocommerce-info,
 .woocommerce-success,
 .woocommerce-warning,
-.woocommerce-error {
+.woocommerce-error,
+.woocommerce-message {
   @include wc-notice-box(
     $padding-y: 1rem,
     $padding-x: 2rem,
@@ -18,10 +19,20 @@
     $icon-display: none
   );
 
-  text-align: center;
-
   a.button {
     display: none;
+  }
+}
+
+.woocommerce-message {
+  border-top-color: $colour-success;
+
+  a {
+    color: $gray-700;
+
+    @include hover-focus {
+      color: $link-active-colour;
+    }
   }
 }
 
