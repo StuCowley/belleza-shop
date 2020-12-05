@@ -115,6 +115,30 @@
   }
 }
 
+// SHOP BUTTON
+//
+// Add a button styled specifically for the shop.
+//
+// Version: 1.0.0
+
+@mixin shop-btn($padding-y: 1rem, $padding-x: 2rem) {
+  padding: $padding-y $padding-x !important;
+  border-radius: 999px !important;
+  background-color: $branding-primary !important;
+  color: $white !important;
+  letter-spacing: 0.05em;
+  font-weight: 500 !important;
+  text-transform: capitalize;
+  text-align: center;
+  transition: $link-transition !important;
+
+  @include hover-focus {
+    background-color: $branding-secondary !important;
+    color: $branding-primary !important;
+    outline: none !important;
+  }
+}
+
 
 // NOTICE BOX
 //
