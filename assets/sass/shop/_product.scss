@@ -108,3 +108,69 @@
     }
   }
 }
+
+/**
+ * Styles the product tabs and content.
+ *
+ * Version: 1.0.0
+ */
+
+.woocommerce-tabs {
+  margin-top: 2rem !important;
+  line-height: 2;
+
+  h2 {
+    margin-top: 0 !important;
+    margin-bottom: 2rem;
+    color: $branding-primary;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    font-size: $font-size-2xl;
+    text-transform: capitalize;
+
+    @media(min-width: $break-lg) {
+      display: none !important;
+      margin-bottom: 0;
+    }
+  }
+
+  .tabs {
+    padding-left: 0 !important;
+    border-bottom: transparent !important;
+
+    li {
+      display: block;
+      width: 100%;
+      border-radius: 0 !important;
+      border: 0 !important;
+      border-bottom: 1px solid $gray-200 !important;
+      background: transparent !important;
+
+      &.active {
+        border-color: $gray-900 !important;
+
+        a {
+          color: $gray-900 !important;
+        }
+      }
+
+      &::before,
+      &::after {
+        display: none;
+      }
+
+      @media(min-width: $break-lg) {
+        display: inline-block;
+        width: auto;
+      }
+    }
+
+    a {
+      color: $gray-600 !important;
+      letter-spacing: 0.125em;
+      font-weight: 600 !important;
+      text-transform: capitalize;
+      transition: 0.25s ease-in-out;
+    }
+  }
+}

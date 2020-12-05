@@ -1260,6 +1260,65 @@ a:hover, a:focus {
 }
 
 /**
+ * Styles the product tabs and content.
+ *
+ * Version: 1.0.0
+ */
+.woocommerce-tabs {
+  margin-top: 2rem !important;
+  line-height: 2;
+}
+.woocommerce-tabs h2 {
+  margin-top: 0 !important;
+  margin-bottom: 2rem;
+  color: #002d70;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+@media (min-width: 1024px) {
+  .woocommerce-tabs h2 {
+    display: none !important;
+    margin-bottom: 0;
+  }
+}
+.woocommerce-tabs .tabs {
+  padding-left: 0 !important;
+  border-bottom: transparent !important;
+}
+.woocommerce-tabs .tabs li {
+  display: block;
+  width: 100%;
+  border-radius: 0 !important;
+  border: 0 !important;
+  border-bottom: 1px solid #edf2f7 !important;
+  background: transparent !important;
+}
+.woocommerce-tabs .tabs li.active {
+  border-color: #1a202d !important;
+}
+.woocommerce-tabs .tabs li.active a {
+  color: #1a202d !important;
+}
+.woocommerce-tabs .tabs li::before, .woocommerce-tabs .tabs li::after {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .woocommerce-tabs .tabs li {
+    display: inline-block;
+    width: auto;
+  }
+}
+.woocommerce-tabs .tabs a {
+  color: #728297 !important;
+  letter-spacing: 0.125em;
+  font-weight: 600 !important;
+  text-transform: capitalize;
+  transition: 0.25s ease-in-out;
+}
+
+/**
  * PRICING
  *
  * Sets the pricing styles for the store.
