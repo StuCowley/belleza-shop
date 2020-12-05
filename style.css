@@ -1229,6 +1229,29 @@ a:hover, a:focus {
 }
 
 /**
+ * Sets the product meta styles. This styles the SKU and category details
+ *
+ * Version: 1.0.0
+ */
+.product_meta .sku_wrapper {
+  margin-right: 1rem;
+  color: #a0aec0;
+  letter-spacing: 0.05em;
+}
+.product_meta .sku {
+  color: #4b5668;
+}
+.product_meta .posted_in {
+  color: #a0aec0;
+}
+.product_meta .posted_in a {
+  color: #4b5668;
+}
+.product_meta .posted_in a:hover, .product_meta .posted_in a:focus {
+  color: #0555f5;
+}
+
+/**
  * PRICING
  *
  * Sets the pricing styles for the store.
