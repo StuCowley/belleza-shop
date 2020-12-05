@@ -1162,6 +1162,9 @@ a:hover, a:focus {
   transition-duration: 0.25s;
   transform: scale(1.075);
 }
+.products li {
+  margin-bottom: 3rem !important;
+}
 
 /**
  * PRODUCT
