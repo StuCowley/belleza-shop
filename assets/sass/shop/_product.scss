@@ -16,9 +16,10 @@
   h1 {
     margin-bottom: 1rem;
     color: $branding-primary;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.125em;
     font-weight: 700;
     font-size: $font-size-2xl;
+    text-transform: uppercase;
   }
 
   .woocommerce-review-link {

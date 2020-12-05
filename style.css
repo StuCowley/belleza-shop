@@ -1199,9 +1199,10 @@ a:hover, a:focus {
 .summary h1 {
   margin-bottom: 1rem;
   color: #002d70;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.125em;
   font-weight: 700;
   font-size: 1.5rem;
+  text-transform: uppercase;
 }
 .summary .woocommerce-review-link {
   color: #a0aec0;
