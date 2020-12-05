@@ -22,6 +22,16 @@
 
   p {
     margin-top: 1rem;
+    line-height: 2;
+    
+    small {
+      color: $gray-500;
+      line-height: 1 !important;
+    }
+
+    sup {
+      font-weight: 700;
+    }
   }
 
   /**

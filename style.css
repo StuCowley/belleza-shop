@@ -1204,6 +1204,14 @@ a:hover, a:focus {
 }
 .summary p {
   margin-top: 1rem;
+  line-height: 2;
+}
+.summary p small {
+  color: #a0aec0;
+  line-height: 1 !important;
+}
+.summary p sup {
+  font-weight: 700;
 }
 .summary .stock {
   margin-top: 1rem;
