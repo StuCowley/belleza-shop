@@ -1319,6 +1319,21 @@ a:hover, a:focus {
 }
 
 /**
+ * Sets the product review styles.
+ *
+ * Version: 1.0.0
+ */
+.comment-text {
+  margin-bottom: 2rem;
+  border-radius: 0.25rem !important;
+  border-color: #e0e7f0 !important;
+  background-color: #f8fafc !important;
+}
+.comment-text .meta {
+  color: #a0aec0 !important;
+}
+
+/**
  * PRICING
  *
  * Sets the pricing styles for the store.

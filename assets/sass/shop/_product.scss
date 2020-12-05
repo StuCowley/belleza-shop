@@ -174,3 +174,19 @@
     }
   }
 }
+
+/**
+ * Sets the product review styles.
+ *
+ * Version: 1.0.0
+ */
+.comment-text {
+  margin-bottom: 2rem;
+  border-radius: 0.25rem !important;
+  border-color: $gray-300 !important;
+  background-color: $gray-100 !important;
+
+  .meta {
+    color: $gray-500 !important;
+  }
+}
