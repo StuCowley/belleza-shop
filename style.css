@@ -1197,6 +1197,7 @@ a:hover, a:focus {
    */
 }
 .summary h1 {
+  margin-bottom: 1rem;
   color: #002d70;
   letter-spacing: 0.05em;
   font-weight: 700;
