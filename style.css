@@ -1449,6 +1449,8 @@ a:hover, a:focus {
   padding-right: 0 !important;
   background-color: transparent;
   color: #a0aec0 !important;
+  font-weight: 100 !important;
+  font-size: 2rem !important;
 }
 .shop_table .product-remove a:hover, .shop_table .product-remove a:focus {
   background-color: transparent;

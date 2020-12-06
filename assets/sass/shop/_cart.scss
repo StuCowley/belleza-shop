@@ -55,11 +55,13 @@
   
    .product-remove {
     padding-right: 0 !important;
-
+    
     a {
       padding-right: 0 !important;
       background-color: transparent;
       color: $gray-500 !important;
+      font-weight: 100 !important;
+      font-size: 2rem !important;
 
       @include hover-focus {
         background-color: transparent;
