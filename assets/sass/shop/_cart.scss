@@ -7,3 +7,33 @@
  * Version: 1.0.0
  */
 
+/**
+ * Set the shop table styles
+ *
+ * Version: 1.0.0
+ */
+
+.shop_table {
+  border: 0 !important;
+
+  thead {
+    color: $branding-primary;
+    letter-spacing: 0.25em !important;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  tbody {
+    tr {
+      &:nth-child(even) {
+        background-color: $gray-100;
+      }
+    }
+
+    td {
+      @include padding-y(1.25rem, 1.25rem);
+
+      border-top-color: $gray-300 !important;
+    }
+  }
+}

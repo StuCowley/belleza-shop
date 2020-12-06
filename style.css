@@ -833,8 +833,8 @@ a:hover, a:focus {
  * Version: 1.0.0
  */
 .sc-hero-feature-container {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: auto !important;
+  margin-right: auto !important;
   max-width: 1280px;
 }
 
@@ -916,8 +916,8 @@ a:hover, a:focus {
 }
 
 .sc-header {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: auto !important;
+  margin-right: auto !important;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1057,15 +1057,15 @@ a:hover, a:focus {
  * Set the page content
  */
 .sc-page-content {
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
   margin: 3rem auto;
   max-width: 1280px;
 }
 @media (min-width: 1024px) {
   .sc-page-content {
-    padding-left: 3rem;
-    padding-right: 3rem;
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
   }
 }
 
@@ -1081,10 +1081,10 @@ a:hover, a:focus {
 .woocommerce-warning,
 .woocommerce-error,
 .woocommerce-message {
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
   border-radius: 0.25rem;
   border: 1px solid #e0e7f0;
   border-top-width: 3px;
@@ -1235,12 +1235,12 @@ a:hover, a:focus {
   color: #f04242 !important;
 }
 .summary form {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
 }
 .summary .quantity .qty {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
   margin-right: 1rem;
 }
 
@@ -1396,6 +1396,37 @@ a:hover, a:focus {
   color: #002d70;
   font-size: 1.25rem;
   text-transform: uppercase;
+}
+
+/**
+ * CART
+ *
+ * Sets all the cart styles including the cart table of contents, button styles 
+ * and cart totals.
+ *
+ * Version: 1.0.0
+ */
+/**
+ * Set the shop table styles
+ *
+ * Version: 1.0.0
+ */
+.shop_table {
+  border: 0 !important;
+}
+.shop_table thead {
+  color: #002d70;
+  letter-spacing: 0.25em !important;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.shop_table tbody tr:nth-child(even) {
+  background-color: #f8fafc;
+}
+.shop_table tbody td {
+  padding-top: 1.25rem !important;
+  padding-bottom: 1.25rem !important;
+  border-top-color: #e0e7f0 !important;
 }
 
 /**
