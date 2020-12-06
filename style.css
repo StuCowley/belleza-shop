@@ -1413,6 +1413,11 @@ a:hover, a:focus {
  */
 .shop_table {
   border: 0 !important;
+  /**
+   * Reduce the size of the cart product thumbnail.
+   *
+   * Version: 1.0.0
+   */
 }
 .shop_table thead {
   color: #002d70;
@@ -1427,6 +1432,9 @@ a:hover, a:focus {
   padding-top: 1.25rem !important;
   padding-bottom: 1.25rem !important;
   border-top-color: #e0e7f0 !important;
+}
+.shop_table .product-thumbnail {
+  width: 8rem;
 }
 
 /**

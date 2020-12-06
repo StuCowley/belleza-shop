@@ -36,4 +36,14 @@
       border-top-color: $gray-300 !important;
     }
   }
+
+  /**
+   * Reduce the size of the cart product thumbnail.
+   *
+   * Version: 1.0.0
+   */
+
+  .product-thumbnail {
+    width: 8rem;
+  }
 }
