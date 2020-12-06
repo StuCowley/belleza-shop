@@ -44,7 +44,11 @@
    */
 
   .product-thumbnail {
-    width: 8rem;
+    img {
+      width: 5rem;
+      border-radius: 999px;
+      border: 1px solid $gray-300;
+    }
   }
 
   /**

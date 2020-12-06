@@ -1439,8 +1439,10 @@ a:hover, a:focus {
   padding-bottom: 1.25rem !important;
   border-top-color: #e0e7f0 !important;
 }
-.shop_table .product-thumbnail {
-  width: 8rem;
+.shop_table .product-thumbnail img {
+  width: 5rem;
+  border-radius: 999px;
+  border: 1px solid #e0e7f0;
 }
 .shop_table .product-remove {
   padding-right: 0 !important;
