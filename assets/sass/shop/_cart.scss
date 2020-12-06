@@ -46,4 +46,25 @@
   .product-thumbnail {
     width: 8rem;
   }
+
+  /**
+   * Set the remove product button
+   *
+   * Version: 1.0.0
+   */
+  
+   .product-remove {
+    padding-right: 0 !important;
+
+    a {
+      padding-right: 0 !important;
+      background-color: transparent;
+      color: $gray-500 !important;
+
+      @include hover-focus {
+        background-color: transparent;
+        color: $gray-700 !important;
+      }
+    }
+  }
 }

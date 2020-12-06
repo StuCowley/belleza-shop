@@ -1418,6 +1418,11 @@ a:hover, a:focus {
    *
    * Version: 1.0.0
    */
+  /**
+   * Set the remove product button
+   *
+   * Version: 1.0.0
+   */
 }
 .shop_table thead {
   color: #002d70;
@@ -1435,6 +1440,18 @@ a:hover, a:focus {
 }
 .shop_table .product-thumbnail {
   width: 8rem;
+}
+.shop_table .product-remove {
+  padding-right: 0 !important;
+}
+.shop_table .product-remove a {
+  padding-right: 0 !important;
+  background-color: transparent;
+  color: #a0aec0 !important;
+}
+.shop_table .product-remove a:hover, .shop_table .product-remove a:focus {
+  background-color: transparent;
+  color: #4b5668 !important;
 }
 
 /**
