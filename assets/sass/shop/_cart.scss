@@ -67,4 +67,20 @@
       }
     }
   }
+
+  /**
+   * Set the product name and set subtotal front weight to 700
+   *
+   * Version: 1.0.0
+   */
+
+  .product-name {
+    a {
+      color: $gray-700;
+    }
+  }
+  
+  .product-subtotal {
+    font-weight: 700;
+  }
 }
