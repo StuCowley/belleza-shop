@@ -1091,7 +1091,6 @@ a:hover, a:focus {
   border-top-width: 3px;
   background-color: #f8fafc;
   color: #4b5668;
-  letter-spacing: 0.05em;
   font-weight: 700;
 }
 .woocommerce-info:before,
@@ -1150,7 +1149,6 @@ a:hover, a:focus {
  * Version: 1.0.0
  */
 .products {
-  letter-spacing: 0.05em;
   font-weight: 700;
 }
 .products a {
@@ -1224,7 +1222,6 @@ a:hover, a:focus {
 }
 .summary .stock {
   margin-top: 1rem;
-  letter-spacing: 0.05em;
   font-weight: 700;
   font-size: 1rem !important;
   text-transform: uppercase;
@@ -1253,7 +1250,6 @@ a:hover, a:focus {
 .product_meta .sku_wrapper {
   margin-right: 1rem;
   color: #a0aec0;
-  letter-spacing: 0.05em;
 }
 .product_meta .sku {
   color: #4b5668;
@@ -1281,7 +1277,6 @@ a:hover, a:focus {
   margin-top: 0 !important;
   margin-bottom: 2rem;
   color: #002d70;
-  letter-spacing: 0.05em;
   font-weight: 700;
   font-size: 1.5rem;
   text-transform: capitalize;
