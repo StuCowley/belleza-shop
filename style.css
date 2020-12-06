@@ -1445,6 +1445,7 @@ a:hover, a:focus {
   border: 1px solid #e0e7f0;
 }
 .shop_table .product-remove {
+  width: 0 !important;
   padding-right: 0 !important;
 }
 .shop_table .product-remove a {
