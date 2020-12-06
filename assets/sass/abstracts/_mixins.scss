@@ -41,13 +41,13 @@
 // Version: 1.0.0
 
 @mixin margin-y($top, $bottom) {
-  margin-top: $top;
-  margin-bottom: $bottom;
+  margin-top: $top !important;
+  margin-bottom: $bottom !important;
 }
 
 @mixin margin-x($left, $right) {
-  margin-left: $left;
-  margin-right: $right;
+  margin-left: $left !important;
+  margin-right: $right !important;
 }
 
 
@@ -61,13 +61,13 @@
 // Version: 1.0.0
 
 @mixin padding-y($top, $bottom) {
-  padding-top: $top;
-  padding-bottom: $bottom;
+  padding-top: $top !important;
+  padding-bottom: $bottom !important;
 }
 
 @mixin padding-x($left, $right) {
-  padding-left: $left;
-  padding-right: $right;
+  padding-left: $left !important;
+  padding-right: $right !important;
 }
 
 
