@@ -1462,6 +1462,9 @@ a:hover, a:focus {
 .shop_table .product-name a {
   color: #4b5668;
 }
+.shop_table .product-name a:hover, .shop_table .product-name a:focus {
+  color: #0555f5;
+}
 .shop_table .product-subtotal {
   font-weight: 700;
 }
