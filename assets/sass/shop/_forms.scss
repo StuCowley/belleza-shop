@@ -25,3 +25,10 @@
     transition: $link-transition;
   }
 }
+
+label {
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+  font-size: $font-size-sm;
+  text-transform: uppercase;
+}
