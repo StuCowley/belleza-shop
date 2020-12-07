@@ -1541,13 +1541,18 @@ a:hover, a:focus {
  * Version: 1.0.0
  */
 span.onsale {
-  padding: 0 1.25rem !important;
+  padding: 0 0.25rem !important;
   border-radius: 0 !important;
   vertical-align: middle !important;
   background-color: #2d3648 !important;
   letter-spacing: 0.175em !important;
   font-weight: 500 !important;
   text-transform: uppercase !important;
+}
+@media (min-width: 1024px) {
+  span.onsale {
+    padding: 0 1.25rem !important;
+  }
 }
 
 /**
