@@ -95,3 +95,25 @@
     font-weight: 700;
   }
 }
+
+/**
+ * Sets the cart actions styles
+ *
+ * Version: 1.0.0
+ */
+
+td.actions {
+  background-color: $white !important;
+
+  .input-text {
+    width: inherit !important;
+    padding: 0.75rem 0.75rem !important;
+    margin-right: 1rem;
+    font-weight: 700;
+    font-family: $font-monospace;
+  }
+
+  .button {
+    border-radius: 0.25rem !important;
+  }
+}
