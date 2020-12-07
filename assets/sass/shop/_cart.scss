@@ -117,3 +117,38 @@ td.actions {
     border-radius: 0.25rem !important;
   }
 }
+
+/**
+ * Sets the cart totals styles
+ *
+ * Version: 1.0.0
+ */
+
+.cart_totals {
+  h2 {
+    color: $branding-primary;
+    letter-spacing: 0.125em;
+    font-weight: 700;
+    font-size: $font-size-xl;
+    text-transform: uppercase;
+  }
+}
+
+.cart-subtotal,
+.cart-discount,
+.order-total {
+  td {
+    &:nth-child(even) {
+      text-align: right;
+    }
+  }
+}
+
+.woocommerce-remove-coupon {
+  color: $gray-700;
+  font-weight: 700;
+
+  @include hover-focus {
+    color: $link-active-colour;
+  }
+}

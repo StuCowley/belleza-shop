@@ -1489,6 +1489,33 @@ td.actions .button {
 }
 
 /**
+ * Sets the cart totals styles
+ *
+ * Version: 1.0.0
+ */
+.cart_totals h2 {
+  color: #002d70;
+  letter-spacing: 0.125em;
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+.cart-subtotal td:nth-child(even),
+.cart-discount td:nth-child(even),
+.order-total td:nth-child(even) {
+  text-align: right;
+}
+
+.woocommerce-remove-coupon {
+  color: #4b5668;
+  font-weight: 700;
+}
+.woocommerce-remove-coupon:hover, .woocommerce-remove-coupon:focus {
+  color: #0555f5;
+}
+
+/**
  * PRICING
  *
  * Sets the pricing styles for the store.
