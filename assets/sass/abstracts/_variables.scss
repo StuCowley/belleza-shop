@@ -45,9 +45,10 @@ $body-bg:                                       $white !default;
 
 //*** Font URL
 
-$font-url:                                   'https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap' !default;
+$font-url:                                      'https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap' !default;
 
 $font-sans-serif:                               system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+$font-monospace:                                ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 $font-base:                                     'Quicksand', $font-sans-serif !default;
 
 //*** Font Sizes
