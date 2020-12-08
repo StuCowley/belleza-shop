@@ -1790,4 +1790,22 @@ form.login .lost_password a {
   }
 }
 
+/* Dashboard Navigation */
+.woocommerce-MyAccount-navigation {
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #e0e7f0;
+}
+.woocommerce-MyAccount-navigation li {
+  margin-bottom: 0.5rem;
+}
+.woocommerce-MyAccount-navigation li:last-child {
+  margin-bottom: 2rem;
+}
+@media (min-width: 1024px) {
+  .woocommerce-MyAccount-navigation {
+    width: 25%;
+    border-bottom: none;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
