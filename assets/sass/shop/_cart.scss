@@ -24,6 +24,12 @@
   }
 
   tbody {
+    th {
+      border: 0 !important;  
+    }
+
+    border: 0 !important;
+
     tr {
       &:nth-child(even) {
         background-color: $gray-100;
