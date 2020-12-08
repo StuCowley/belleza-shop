@@ -17,3 +17,51 @@
     text-transform: uppercase;
   }
 }
+
+/**
+ * Sets the cart totals styles
+ *
+ * Version: 1.0.0
+ */
+
+ .cart_totals {
+  h2 {
+    color: $branding-primary;
+    letter-spacing: 0.125em;
+    font-weight: 700;
+    font-size: $font-size-xl;
+    text-transform: uppercase;
+  }
+}
+
+.cart-subtotal,
+.cart-discount,
+.order-total {
+  th,
+  td {
+    border-top: 0 !important;
+  }
+  
+  td {
+    &:nth-child(even) {
+      text-align: right;
+    }
+  }
+}
+
+/**
+ * Sets the styles for the remove coupon button.
+ *
+ * Version: 1.0.0
+ */
+
+.woocommerce-remove-coupon {
+  color: $gray-700;
+  font-weight: 700;
+  font-size: $font-size-sm !important;
+  text-transform: uppercase;
+
+  @include hover-focus {
+    color: $link-active-colour;
+  }
+}

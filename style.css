@@ -1498,6 +1498,23 @@ td.actions .button {
 }
 
 /**
+ * CHECKOUT
+ *
+ * Sets the styles for the checkout form.
+ *
+ * Version: 1.0.0
+ */
+.checkout h3 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+  color: #002d70;
+  letter-spacing: 0.125em;
+  font-weight: 700;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+}
+
+/**
  * Sets the cart totals styles
  *
  * Version: 1.0.0
@@ -1537,23 +1554,6 @@ td.actions .button {
 }
 .woocommerce-remove-coupon:hover, .woocommerce-remove-coupon:focus {
   color: #0555f5;
-}
-
-/**
- * CHECKOUT
- *
- * Sets the styles for the checkout form.
- *
- * Version: 1.0.0
- */
-.checkout h3 {
-  margin-top: 1rem !important;
-  margin-bottom: 1rem !important;
-  color: #002d70;
-  letter-spacing: 0.125em;
-  font-weight: 700;
-  font-size: 1.125rem;
-  text-transform: uppercase;
 }
 
 /**
