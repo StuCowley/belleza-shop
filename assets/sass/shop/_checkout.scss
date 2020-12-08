@@ -7,5 +7,13 @@
  */
 
 .checkout {
-  
+  h3 {
+    @include margin-y(1rem, 1rem);
+
+    color: $branding-primary;
+    letter-spacing: 0.125em;
+    font-weight: 700;
+    font-size: $font-size-lg;
+    text-transform: uppercase;
+  }
 }
