@@ -1164,6 +1164,9 @@ a:hover, a:focus {
 .products li {
   margin-bottom: 3rem !important;
 }
+.products .star-rating {
+  color: #ccd5e0;
+}
 
 /**
  * PRODUCT
@@ -1431,13 +1434,19 @@ a:hover, a:focus {
   font-weight: 700;
   text-transform: uppercase;
 }
+.shop_table tbody {
+  border: 0 !important;
+}
+.shop_table tbody th {
+  border: 0 !important;
+}
 .shop_table tbody tr:nth-child(even) {
   background-color: #f8fafc;
 }
 .shop_table tbody td {
   padding-top: 1.25rem !important;
   padding-bottom: 1.25rem !important;
-  border-top-color: #e0e7f0 !important;
+  border-top: 0 !important;
 }
 .shop_table .product-thumbnail img {
   width: 5rem;
@@ -1501,15 +1510,30 @@ td.actions .button {
   text-transform: uppercase;
 }
 
+.cart-subtotal th,
+.cart-subtotal td,
+.cart-discount th,
+.cart-discount td,
+.order-total th,
+.order-total td {
+  border-top: 0 !important;
+}
 .cart-subtotal td:nth-child(even),
 .cart-discount td:nth-child(even),
 .order-total td:nth-child(even) {
   text-align: right;
 }
 
+/**
+ * Sets the styles for the remove coupon button.
+ *
+ * Version: 1.0.0
+ */
 .woocommerce-remove-coupon {
   color: #4b5668;
   font-weight: 700;
+  font-size: 0.875rem !important;
+  text-transform: uppercase;
 }
 .woocommerce-remove-coupon:hover, .woocommerce-remove-coupon:focus {
   color: #0555f5;
@@ -1522,6 +1546,16 @@ td.actions .button {
  *
  * Version: 1.0.0
  */
+.checkout h3 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+  color: #002d70;
+  letter-spacing: 0.125em;
+  font-weight: 700;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+}
+
 /**
  * PRICING
  *
@@ -1622,6 +1656,7 @@ span.onsale {
  * Version: 1.0.0
  */
 .input-text {
+  padding: 0.75rem 0.75rem !important;
   border: 1px solid #e0e7f0;
   color: #a0aec0;
 }
@@ -1630,6 +1665,17 @@ span.onsale {
   border-color: #a0aec0;
   color: #4b5668;
   transition: 0.25s ease all;
+}
+
+label {
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+}
+
+#order_comments {
+  min-height: 10rem;
 }
 
 /*# sourceMappingURL=style.css.map */
