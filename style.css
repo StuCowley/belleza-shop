@@ -1806,6 +1806,7 @@ form.login .lost_password a {
 }
 .woocommerce-MyAccount-navigation a:hover, .woocommerce-MyAccount-navigation a:focus {
   opacity: 0.6;
+  margin-left: 0.5rem;
 }
 .woocommerce-MyAccount-navigation ul {
   display: block;
