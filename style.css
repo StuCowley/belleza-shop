@@ -1797,8 +1797,6 @@ form.login .lost_password a {
 /* Dashboard Navigation */
 .woocommerce-MyAccount-navigation {
   padding-right: 1rem;
-  margin-bottom: 2rem;
-  border-bottom: 1px solid #e0e7f0;
   font-weight: 600;
 }
 .woocommerce-MyAccount-navigation a {
