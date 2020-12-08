@@ -1829,6 +1829,13 @@ form.login .lost_password a {
 }
 
 /* Dashboard Content */
+.woocommerce-MyAccount-content {
+  /**
+   * Set the password change styles
+   *
+   * Version: 1.0.0
+   */
+}
 .woocommerce-MyAccount-content p {
   margin-bottom: 1rem;
 }
@@ -1873,6 +1880,13 @@ form.login .lost_password a {
 }
 .woocommerce-MyAccount-content .woocommerce-Address-title a:hover, .woocommerce-MyAccount-content .woocommerce-Address-title a:focus {
   border-color: #f6d0d1 !important;
+}
+.woocommerce-MyAccount-content legend {
+  padding-top: 2rem !important;
+  padding-bottom: 1rem !important;
+  letter-spacing: 0.125rem;
+  font-size: 1.25rem;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=style.css.map */

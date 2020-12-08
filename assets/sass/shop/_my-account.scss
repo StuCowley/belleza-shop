@@ -136,5 +136,18 @@ form.login {
       }
     }
   }
+
+  /**
+   * Set the password change styles
+   *
+   * Version: 1.0.0
+   */
+  legend {
+    @include padding-y(2rem, 1rem);
+
+    letter-spacing: 0.125rem;
+    font-size: $font-size-xl;
+    text-transform: uppercase;
+  }
 }
 
