@@ -62,11 +62,30 @@ form.login {
 
 /* Dashboard Navigation */
 .woocommerce-MyAccount-navigation {
+  padding-right: 1rem;
   margin-bottom: 2rem;
   border-bottom: 1px solid $gray-300;
 
+  a {
+    display: block;
+    width: 100%;
+    color: $branding-primary;
+
+    @include hover-focus {
+      opacity: 0.6;
+    }
+  }
+
+  ul {
+    display: block;
+  }
+
   li {
+    @include padding-y(0.5rem, 0.5rem);
+
+    padding-right: 2rem !important;
     margin-bottom: 0.5rem;
+    border-bottom: 1px solid $gray-300;
 
     &:last-child {
       margin-bottom: 2rem;

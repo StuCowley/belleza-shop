@@ -1792,11 +1792,27 @@ form.login .lost_password a {
 
 /* Dashboard Navigation */
 .woocommerce-MyAccount-navigation {
+  padding-right: 1rem;
   margin-bottom: 2rem;
   border-bottom: 1px solid #e0e7f0;
 }
+.woocommerce-MyAccount-navigation a {
+  display: block;
+  width: 100%;
+  color: #002d70;
+}
+.woocommerce-MyAccount-navigation a:hover, .woocommerce-MyAccount-navigation a:focus {
+  opacity: 0.6;
+}
+.woocommerce-MyAccount-navigation ul {
+  display: block;
+}
 .woocommerce-MyAccount-navigation li {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  padding-right: 2rem !important;
   margin-bottom: 0.5rem;
+  border-bottom: 1px solid #e0e7f0;
 }
 .woocommerce-MyAccount-navigation li:last-child {
   margin-bottom: 2rem;
