@@ -143,6 +143,11 @@ td.actions {
 .cart-subtotal,
 .cart-discount,
 .order-total {
+  th,
+  td {
+    border-top: 0 !important;
+  }
+  
   td {
     &:nth-child(even) {
       text-align: right;
