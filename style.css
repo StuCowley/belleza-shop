@@ -1515,6 +1515,31 @@ td.actions .button {
 }
 
 /**
+ * Sets the checkout coupon entry form
+ *
+ * Version: 1.0.0
+ */
+.checkout_coupon {
+  padding: 1rem !important;
+  margin-top: -1rem !important;
+  border-radius: 0 !important;
+  border-color: #e0e7f0 !important;
+  background-color: #f8fafc;
+}
+.checkout_coupon p {
+  margin-bottom: 1rem;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+}
+.checkout_coupon .input-text {
+  margin-right: 0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+.checkout_coupon .button {
+  margin-left: -3.5rem !important;
+}
+
+/**
  * Sets the cart totals styles
  *
  * Version: 1.0.0

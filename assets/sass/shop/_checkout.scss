@@ -19,6 +19,35 @@
 }
 
 /**
+ * Sets the checkout coupon entry form
+ *
+ * Version: 1.0.0
+ */
+
+.checkout_coupon {
+  padding: 1rem !important;
+  margin-top: -1rem !important;
+  border-radius: 0 !important;
+  border-color: $gray-300 !important;
+  background-color: $gray-100;
+  
+  p {
+    margin-bottom: 1rem;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+  }
+  
+  .input-text {
+    margin-right: 0;
+    font-family: $font-monospace;
+  }
+
+  .button {
+    margin-left: -3.5rem !important;
+  }
+}
+
+/**
  * Sets the cart totals styles
  *
  * Version: 1.0.0
