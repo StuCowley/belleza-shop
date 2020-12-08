@@ -78,3 +78,19 @@ form.login {
     border-bottom: none;
   }
 }
+
+/* Dashboard Content */
+.woocommerce-MyAccount-content {
+  p {
+    margin-bottom: 1rem;
+  }
+
+  @media(min-width: $break-lg) {
+    width: 74%;
+  }
+
+  @media(min-width: $break-xl) {
+    width: 74.5%;
+  }
+}
+

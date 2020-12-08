@@ -1808,4 +1808,19 @@ form.login .lost_password a {
   }
 }
 
+/* Dashboard Content */
+.woocommerce-MyAccount-content p {
+  margin-bottom: 1rem;
+}
+@media (min-width: 1024px) {
+  .woocommerce-MyAccount-content {
+    width: 74%;
+  }
+}
+@media (min-width: 1280px) {
+  .woocommerce-MyAccount-content {
+    width: 74.5%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
