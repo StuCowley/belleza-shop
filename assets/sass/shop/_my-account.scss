@@ -41,3 +41,21 @@ form.login {
     }
   }
 }
+
+/**
+ * Make the dashboard navigation and content 100% width on viewports up to 
+ * $break-lg.
+ *
+ * Version: 1.0.0
+ */
+
+.woocommerce-MyAccount-navigation,
+.woocommerce-MyAccount-content {
+  display: block;
+  width: 100%;
+
+  @media(min-width: $break-lg) {
+    display: inline-block;
+    vertical-align: top;
+  }
+}
