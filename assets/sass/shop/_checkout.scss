@@ -93,3 +93,20 @@
     color: $link-active-colour;
   }
 }
+
+/**
+ * Sets the styles for the payment method and place order section
+ *
+ * Version: 1.0.0
+ */
+
+.methods,
+.place-order {
+  border-radius: 0 !important;
+  border: 0 !important;
+  background-color: $white !important;
+
+  .button {
+    margin-top: 2rem !important;
+  }
+}

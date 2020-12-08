@@ -1579,6 +1579,22 @@ td.actions .button {
 }
 
 /**
+ * Sets the styles for the payment method and place order section
+ *
+ * Version: 1.0.0
+ */
+.methods,
+.place-order {
+  border-radius: 0 !important;
+  border: 0 !important;
+  background-color: white !important;
+}
+.methods .button,
+.place-order .button {
+  margin-top: 2rem !important;
+}
+
+/**
  * PRICING
  *
  * Sets the pricing styles for the store.
