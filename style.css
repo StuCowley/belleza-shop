@@ -1375,7 +1375,7 @@ a:hover, a:focus {
   background-color: #002d70 !important;
   color: white !important;
   letter-spacing: 0.05em;
-  font-weight: 500 !important;
+  font-weight: 700 !important;
   text-transform: capitalize;
   text-align: center;
   transition: 0.25s ease all !important;
@@ -1490,8 +1490,6 @@ td.actions .input-text {
   width: inherit !important;
   padding: 0.75rem 0.75rem !important;
   margin-right: 1rem;
-  font-weight: 700;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 td.actions .button {
   border-radius: 0.25rem !important;
@@ -1533,7 +1531,6 @@ td.actions .button {
 }
 .checkout_coupon .input-text {
   margin-right: 0;
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 .checkout_coupon .button {
   margin-left: -3.5rem !important;
@@ -1627,7 +1624,7 @@ td.actions .button {
   background-color: #002d70 !important;
   color: white !important;
   letter-spacing: 0.05em;
-  font-weight: 500 !important;
+  font-weight: 700 !important;
   text-transform: capitalize;
   text-align: center;
   transition: 0.25s ease all !important;
