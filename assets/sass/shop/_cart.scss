@@ -147,6 +147,8 @@ td.actions {
 .woocommerce-remove-coupon {
   color: $gray-700;
   font-weight: 700;
+  font-size: $font-size-sm !important;
+  text-transform: uppercase;
 
   @include hover-focus {
     color: $link-active-colour;
