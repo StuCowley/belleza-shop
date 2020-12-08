@@ -737,6 +737,10 @@ body {
   font-size: 1rem;
 }
 
+address {
+  font-style: normal;
+}
+
 /**
  * Set the default link styles
  *
@@ -1837,6 +1841,38 @@ form.login .lost_password a {
   .woocommerce-MyAccount-content {
     width: 74.5%;
   }
+}
+.woocommerce-MyAccount-content .woocommerce-Address-title h3 {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.125rem;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.woocommerce-MyAccount-content .woocommerce-Address-title a {
+  padding: 0.25rem 1rem !important;
+  border-radius: 999px !important;
+  background-color: #002d70 !important;
+  color: white !important;
+  letter-spacing: 0.05em;
+  font-weight: 700 !important;
+  text-transform: capitalize;
+  text-align: center;
+  transition: 0.25s ease all !important;
+  margin-bottom: -10px !important;
+  border-radius: 0.25rem;
+  border: 1px solid #002d70 !important;
+  background-color: transparent !important;
+  color: #002d70 !important;
+}
+.woocommerce-MyAccount-content .woocommerce-Address-title a:hover, .woocommerce-MyAccount-content .woocommerce-Address-title a:focus {
+  background-color: #f6d0d1 !important;
+  color: #002d70 !important;
+  outline: none !important;
+}
+.woocommerce-MyAccount-content .woocommerce-Address-title a:hover, .woocommerce-MyAccount-content .woocommerce-Address-title a:focus {
+  border-color: #f6d0d1 !important;
 }
 
 /*# sourceMappingURL=style.css.map */
