@@ -110,3 +110,23 @@
     margin-top: 2rem !important;
   }
 }
+
+/**
+ * Sets the privacy policy text styles.
+ *
+ * Version: 1.0.0
+ */
+
+.woocommerce-privacy-policy-text {
+  margin-top: -1rem;
+  color: $gray-500;
+  font-size: $font-size-sm;
+
+  a {
+    color: $gray-700;
+
+    @include hover-focus {
+      text-decoration: underline;
+    }
+  }
+}

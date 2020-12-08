@@ -1595,6 +1595,23 @@ td.actions .button {
 }
 
 /**
+ * Sets the privacy policy text styles.
+ *
+ * Version: 1.0.0
+ */
+.woocommerce-privacy-policy-text {
+  margin-top: -1rem;
+  color: #a0aec0;
+  font-size: 0.875rem;
+}
+.woocommerce-privacy-policy-text a {
+  color: #4b5668;
+}
+.woocommerce-privacy-policy-text a:hover, .woocommerce-privacy-policy-text a:focus {
+  text-decoration: underline;
+}
+
+/**
  * PRICING
  *
  * Sets the pricing styles for the store.
