@@ -33,7 +33,7 @@
     td {
       @include padding-y(1.25rem, 1.25rem);
 
-      border-top-color: $gray-300 !important;
+      border-top: 0 !important;
     }
   }
 
