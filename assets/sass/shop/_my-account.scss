@@ -5,3 +5,39 @@
  *
  * Version: 1.0.0
  */
+
+/**
+ * Set the 'My Account' login page styles
+ *
+ * Version: 1.0.0
+ */
+
+form.login {
+  width: 40% !important;
+  margin: auto !important;
+  border: 0 !important;
+  text-align: center !important;
+
+  .password-input {
+    font-family: $font-monospace;
+  }
+  
+  .woocommerce-form-login__rememberme {
+    display: none !important;
+  }
+
+  .button {
+    @include margin-x(auto, auto);
+    float: none !important;
+    margin-top: 1rem !important;
+  }
+
+  .lost_password {
+    margin-top: 1rem;
+    font-size: $font-size-sm;
+
+    a {
+      color: $gray-500;
+    }
+  }
+}

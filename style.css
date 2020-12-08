@@ -1740,5 +1740,35 @@ label {
  *
  * Version: 1.0.0
  */
+/**
+ * Set the 'My Account' login page styles
+ *
+ * Version: 1.0.0
+ */
+form.login {
+  width: 40% !important;
+  margin: auto !important;
+  border: 0 !important;
+  text-align: center !important;
+}
+form.login .password-input {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+form.login .woocommerce-form-login__rememberme {
+  display: none !important;
+}
+form.login .button {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  float: none !important;
+  margin-top: 1rem !important;
+}
+form.login .lost_password {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+}
+form.login .lost_password a {
+  color: #a0aec0;
+}
 
 /*# sourceMappingURL=style.css.map */
