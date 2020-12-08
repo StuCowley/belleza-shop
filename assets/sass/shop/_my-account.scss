@@ -65,6 +65,7 @@ form.login {
   padding-right: 1rem;
   margin-bottom: 2rem;
   border-bottom: 1px solid $gray-300;
+  font-weight: 600;
 
   a {
     display: block;
@@ -102,6 +103,15 @@ form.login {
 .woocommerce-MyAccount-content {
   p {
     margin-bottom: 1rem;
+  }
+
+  a {
+    color: $gray-700;
+    font-weight: 600;
+
+    @include hover-focus {
+      color: $link-active-colour;
+    }
   }
 
   @media(min-width: $break-lg) {

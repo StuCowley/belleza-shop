@@ -1799,6 +1799,7 @@ form.login .lost_password a {
   padding-right: 1rem;
   margin-bottom: 2rem;
   border-bottom: 1px solid #e0e7f0;
+  font-weight: 600;
 }
 .woocommerce-MyAccount-navigation a {
   display: block;
@@ -1838,6 +1839,13 @@ form.login .lost_password a {
 }
 .woocommerce-MyAccount-content p {
   margin-bottom: 1rem;
+}
+.woocommerce-MyAccount-content a {
+  color: #4b5668;
+  font-weight: 600;
+}
+.woocommerce-MyAccount-content a:hover, .woocommerce-MyAccount-content a:focus {
+  color: #0555f5;
 }
 @media (min-width: 1024px) {
   .woocommerce-MyAccount-content {
