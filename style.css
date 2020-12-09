@@ -1835,6 +1835,12 @@ form.login .lost_password a {
    *
    * Version: 1.0.0
    */
+  /**
+   * Add top margin to the "Save Changes" button to add some speration from the 
+   * "Confirm New Pass" input field
+   *
+   * Version: 1.0.0
+   */
 }
 .woocommerce-MyAccount-content p {
   margin-bottom: 1rem;
@@ -1894,6 +1900,9 @@ form.login .lost_password a {
   letter-spacing: 0.125rem;
   font-size: 1.25rem;
   text-transform: uppercase;
+}
+.woocommerce-MyAccount-content .button {
+  margin-top: 1rem !important;
 }
 
 /*# sourceMappingURL=style.css.map */

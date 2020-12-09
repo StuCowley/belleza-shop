@@ -158,5 +158,16 @@ form.login {
     font-size: $font-size-xl;
     text-transform: uppercase;
   }
+
+  /**
+   * Add top margin to the "Save Changes" button to add some speration from the 
+   * "Confirm New Pass" input field
+   *
+   * Version: 1.0.0
+   */
+  
+  .button {
+    margin-top: 1rem !important;
+  }
 }
 
