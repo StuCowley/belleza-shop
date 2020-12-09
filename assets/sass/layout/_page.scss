@@ -7,9 +7,8 @@
     $page-content-padding-x
   );
 
-  margin: $page-content-margin-y $page-content-margin-x;
-  
   max-width: $page-content-max-w;
+  margin: $page-content-margin-y $page-content-margin-x;
 
   @media(min-width: $break-lg) {
     @include padding-x(
