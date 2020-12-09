@@ -762,6 +762,13 @@ a:hover, a:focus {
 }
 
 /**
+ * POLICY PAGES
+ *
+ * Sets the styles for policy pages.
+ *
+ * Version: 1.0.0
+ */
+/**
  * Set the featured hero
  *
  * Version: 1.0.0
@@ -1064,8 +1071,8 @@ a:hover, a:focus {
 .sc-page-content {
   padding-left: 1rem !important;
   padding-right: 1rem !important;
-  margin: 3rem auto;
   max-width: 1280px;
+  margin: 3rem auto;
 }
 @media (min-width: 1024px) {
   .sc-page-content {
