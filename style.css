@@ -768,6 +768,35 @@ a:hover, a:focus {
  *
  * Version: 1.0.0
  */
+.sc-policy-page h2 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+  color: #002d70;
+  letter-spacing: 0.125rem;
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+.sc-policy-page h3 {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+  color: #1a202d;
+  letter-spacing: 0.125rem;
+  font-weight: 600;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+}
+.sc-policy-page h4 {
+  margin-bottom: 1rem;
+  color: #a0aec0;
+  font-weight: 300;
+  font-size: 1.125rem;
+  text-transform: capitalize;
+}
+.sc-policy-page p {
+  margin-bottom: 1rem;
+}
+
 /**
  * Set the featured hero
  *

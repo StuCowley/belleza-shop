@@ -7,5 +7,35 @@
  */
 
 .sc-policy-page {
-  
+  h2 {
+    @include margin-y(1rem, 1rem);
+
+    color: $branding-primary;
+    letter-spacing: 0.125rem;
+    font-weight: 700;
+    font-size: $font-size-xl;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    @include margin-y(1rem, 1rem);
+
+    color: $gray-900;
+    letter-spacing: 0.125rem;
+    font-weight: 600;
+    font-size: $font-size-lg;
+    text-transform: uppercase;
+  }
+
+  h4 {
+    margin-bottom: 1rem;
+    color: $gray-500;
+    font-weight: 300;
+    font-size: $font-size-lg;
+    text-transform: capitalize;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
 }
