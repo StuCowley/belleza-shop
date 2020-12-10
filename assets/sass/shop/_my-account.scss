@@ -12,6 +12,18 @@
  * Version: 1.0.0
  */
 
+/**
+ * Hide the login heading on the login form
+ *
+ * Version: 1.0.0
+ */
+.woocommerce {
+  h2 {
+    display: none;
+  }
+}
+
+
 form.login {
   width: 40% !important;
   margin: auto !important;
