@@ -1799,7 +1799,6 @@ label {
 }
 
 form.login {
-  width: 40% !important;
   margin: auto !important;
   border: 0 !important;
   text-align: center !important;
@@ -1822,6 +1821,16 @@ form.login .lost_password {
 }
 form.login .lost_password a {
   color: #a0aec0;
+}
+@media (min-width: 640px) {
+  form.login {
+    width: 50% !important;
+  }
+}
+@media (min-width: 1024px) {
+  form.login {
+    max-width: 40%;
+  }
 }
 
 /**
