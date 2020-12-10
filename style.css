@@ -1803,9 +1803,6 @@ form.login {
   border: 0 !important;
   text-align: center !important;
 }
-form.login .password-input {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
 form.login .woocommerce-form-login__rememberme {
   display: none !important;
 }
