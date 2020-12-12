@@ -12,7 +12,6 @@ if ( ! function_exists( 'bellezashop_setup' ) ) {
    * Sets up theme defaults and registers support for various WordPress features
    * 
    * @since 1.0.0
-   * @return void
    */
   function bellezashop_setup() {
     /**
@@ -61,7 +60,6 @@ add_action( 'after_setup_theme', 'bellezashop_setup' );
  * Enqueue scripts and styles
  * 
  * @since 1.0.0
- * @return void
  */
 function bellezashop_scripts() {
   wp_enqueue_style( 
@@ -93,7 +91,6 @@ add_action( 'wp_enqueue_scripts', 'bellezashop_scripts' );
  * by the way.
  * 
  * @since 1.0.0
- * @return void
  */
 
 add_filter( 'wp_check_filetype_and_ext', function($data, $file, $filename, $mimes) {
