@@ -1339,6 +1339,34 @@ a:hover, a:focus {
 }
 
 /**
+ * Set the product variation selection and reset
+ *
+ * Version: 1.0.0
+ */
+.variations select {
+  padding: 0.5rem;
+  border: 1px solid #e0e7f0;
+  transition: 0.25s ease-in-out;
+}
+.variations select:focus {
+  outline: none;
+  border-color: #a0aec0;
+}
+.variations td.label {
+  vertical-align: inherit !important;
+}
+
+.reset_variations {
+  color: #1a202d;
+  letter-spacing: 0.125em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.reset_variations:hover, .reset_variations:focus {
+  color: #4b5668;
+}
+
+/**
  * Styles the product tabs and content.
  *
  * Version: 1.0.0
