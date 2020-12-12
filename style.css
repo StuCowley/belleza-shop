@@ -1572,6 +1572,10 @@ td.actions .button {
  *
  * Version: 1.0.0
  */
+#payment {
+  background-color: white !important;
+}
+
 .checkout h3 {
   margin-top: 1rem !important;
   margin-bottom: 1rem !important;

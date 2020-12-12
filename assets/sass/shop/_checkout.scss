@@ -6,6 +6,10 @@
  * Version: 1.0.0
  */
 
+#payment {
+  background-color: $white !important;
+}
+
 .checkout {
   h3 {
     @include margin-y(1rem, 1rem);
