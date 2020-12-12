@@ -1158,6 +1158,7 @@ a:hover, a:focus {
   background-color: #f8fafc;
   color: #4b5668;
   font-weight: 700;
+  list-style-type: none !important;
 }
 .woocommerce-info:before,
 .woocommerce-success:before,
@@ -1902,6 +1903,7 @@ form.login .lost_password a {
   padding-right: 2rem !important;
   margin-bottom: 0.5rem;
   border-bottom: 1px solid #e0e7f0;
+  list-style-type: none !important;
 }
 .woocommerce-MyAccount-navigation li:last-child {
   margin-bottom: 2rem;
