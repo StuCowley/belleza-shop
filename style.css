@@ -1429,6 +1429,10 @@ a:hover, a:focus {
  *
  * Version: 1.0.0
  */
+.commentlist li {
+  list-style-type: none !important;
+}
+
 .comment-text {
   margin-bottom: 2rem;
   border-radius: 0.25rem !important;
