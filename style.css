@@ -1425,6 +1425,17 @@ a:hover, a:focus {
 }
 
 /**
+ * Sets the related products styles.
+ */
+.related h2 {
+  margin-bottom: 1rem;
+  letter-spacing: 0.125em;
+  color: #002d70;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+/**
  * Sets the product review styles.
  *
  * Version: 1.0.0
@@ -1487,17 +1498,6 @@ a:hover, a:focus {
   background-color: #f6d0d1 !important;
   color: #002d70 !important;
   outline: none !important;
-}
-
-/**
- * Sets the related products styles.
- */
-.related h2 {
-  margin-bottom: 1rem;
-  letter-spacing: 0.125em;
-  color: #002d70;
-  font-size: 1.25rem;
-  text-transform: uppercase;
 }
 
 /**
