@@ -10,6 +10,36 @@
   max-width: $page-content-max-w;
   margin: $page-content-margin-y $page-content-margin-x;
 
+  h2 {
+    margin-bottom: 1rem;
+    color: $branding-primary;
+    letter-spacing: 0.125rem;
+    font-weight: 700;
+    font-size: $font-size-lg;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    margin-bottom: 0.5rem;
+    color: $gray-600;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+
+  p {
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    @include margin-y(1rem, 1rem);
+  }
+
+  li {
+    margin-top: 0.5rem;
+    margin-left: 3rem;
+    list-style-type: disc;
+  }
+
   @media(min-width: $break-lg) {
     @include padding-x(
       $page-content-padding-x-lg, 
