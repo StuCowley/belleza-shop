@@ -48,6 +48,8 @@ if ( ! function_exists( 'bellezashop_setup' ) ) {
       )
     );
 
+    add_theme_support( 'woocommerce' );
+
     /**
      * Load the required the WooCommerce functions file
      */

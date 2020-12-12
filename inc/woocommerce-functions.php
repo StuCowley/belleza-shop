@@ -8,11 +8,6 @@
  */
 
 /**
- * Add support for WooCommerce
- */
-add_theme_support( 'woocommerce' );
-
-/**
  * Add theme support for WooCommerce features
  * 
  * @since 1.0.0
