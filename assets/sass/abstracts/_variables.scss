@@ -279,3 +279,21 @@ $wc-notice-box-border-l-width:                  6px !default;
 $wc-notice-box-icon-display:                    none !default;
 
 $wc-notice-box-font-weight:                     400 !default;
+
+//*** Badges
+
+// ON SALE
+$onsale-vertical-align:                         middle !default;
+
+$onsale-padding-y:                              0 !default;
+$onsale-padding-y-lg:                           0 !default;
+
+$onsale-padding-x:                              0.25rem !default;
+$onsale-padding-x-lg:                           1.25rem !default;
+
+$onsale-border-r:                               0 !default;
+$onsale-bg-colour:                              $gray-800 !default;
+
+$onsale-tracking:                               0.175em !default;
+$onsale-font-weight:                            500 !default;
+$onsale-text-transform:                         uppercase !default;
