@@ -11,14 +11,6 @@
 
 ?>
 
-  <footer class="sc-page-footer">
-    <div class="sc-page-footer-container">
-      <div class="sc-page-footer-branding">
-        Page footer
-      </div>
-    </div>
-  </footer>
-
-  <?php wp_footer(); ?>
+  <?php get_template_part( 'template-parts/footer/site-footer' ); ?>
 </body>
 </html>
