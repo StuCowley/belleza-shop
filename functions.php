@@ -86,18 +86,6 @@ function bellezashop_scripts() {
 add_action( 'wp_enqueue_scripts', 'bellezashop_scripts' );
 
 /**
- * Setup shop hero ACF options page
- * 
- * @since 1.0.0
- */
-if ( function_exists('acf_add_options_page') ) {
-  acf_add_options_page( array(
-    'page_title'  =>  'Shop Hero',
-    'menu_title'  =>  'Shop Hero'
-  ));
-}
-
-/**
  * Enable SVG upload
  * 
  * Enables the ability to upload images that use the .svg extension. This 
