@@ -283,16 +283,16 @@ $wc-notice-box-font-weight:                     400 !default;
 //*** BADGES
 
 // On Sale
-$onsale-vertical-align:                         middle !default;
+$onsale-align:                                  middle !default;
 
-$onsale-padding-y:                              0 !default;
-$onsale-padding-y-lg:                           0 !default;
+$onsale-py:                                     0 !default;
+$onsale-py-lg:                                  0 !default;
 
-$onsale-padding-x:                              0.25rem !default;
-$onsale-padding-x-lg:                           1.25rem !default;
+$onsale-px:                                     0.25rem !default;
+$onsale-px-lg:                                  1.25rem !default;
 
 $onsale-border-r:                               0 !default;
-$onsale-bg-colour:                              $gray-800 !default;
+$onsale-bg:                                     $gray-800 !default;
 
 $onsale-tracking:                               0.175em !default;
 $onsale-font-weight:                            500 !default;

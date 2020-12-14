@@ -15,15 +15,15 @@
  */
 
 span.onsale {
-  padding: $onsale-padding-y $onsale-padding-x !important;
+  padding: $onsale-py $onsale-px !important;
   border-radius: $onsale-border-r !important;
-  vertical-align: $onsale-vertical-align !important;
-  background-color: $onsale-bg-colour !important;
+  vertical-align: $onsale-align !important;
+  background-color: $onsale-bg !important;
   letter-spacing: $onsale-tracking !important;
   font-weight: $onsale-font-weight !important;
   text-transform: $onsale-text-transform !important;
   
   @media(min-width: $break-lg) {
-    padding: $onsale-padding-y-lg $onsale-padding-x-lg !important;
+    padding: $onsale-py-lg $onsale-px-lg !important;
   }
 }
