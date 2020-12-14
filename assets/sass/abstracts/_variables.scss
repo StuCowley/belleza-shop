@@ -144,7 +144,7 @@ $header-menu-item-link-hover-colour:            $link-active-colour !default;
 $header-menu-btn-padding-y-sm:                  0.25rem !default;
 $header-menu-btn-padding-x-sm:                  1rem !default;
 
-$header-menu-btn-border-r:                      999px !default;
+$header-menu-btn-radius:                        999px !default;
 $header-menu-btn-border:                        1px solid $branding-primary !default;
 
 $header-menu-btn-colour:                        $branding-primary !default;
@@ -232,7 +232,7 @@ $hero-btn-px:                                   2rem !default;
 $hero-btn-py-md:                                0.75rem !default;
 $hero-btn-px-md:                                2.5rem !default;
 
-$hero-btn-border-r:                             0.25rem !default;
+$hero-btn-radius:                               0.25rem !default;
 $hero-btn-border:                               1px solid transparent !default;
 $hero-btn-leading:                              1.5rem !default;
 $hero-btn-font-weight:                          500 !default;
@@ -272,7 +272,7 @@ $page-content-margin-x:                         auto !default;
 $wc-notice-box-py:                              1rem !default;
 $wc-notice-box-px:                              0.875rem !default;
 
-$wc-notice-box-border-r:                        0.2rem !default;
+$wc-notice-box-radius:                          0.2rem !default;
 $wc-notice-box-border:                          1px solid transparent !default;
 $wc-notice-box-border-l-width:                  6px !default;
 
@@ -291,7 +291,7 @@ $onsale-py-lg:                                  0 !default;
 $onsale-px:                                     0.25rem !default;
 $onsale-px-lg:                                  1.25rem !default;
 
-$onsale-border-r:                               0 !default;
+$onsale-radius:                                 0 !default;
 $onsale-bg:                                     $gray-800 !default;
 
 $onsale-tracking:                               0.175em !default;
