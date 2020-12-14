@@ -297,3 +297,51 @@ $onsale-bg:                                     $gray-800 !default;
 $onsale-tracking:                               0.175em !default;
 $onsale-font-weight:                            500 !default;
 $onsale-text-transform:                         uppercase !default;
+
+//*** CART
+$cart-table-border:                             0 !default;
+
+$cart-table-thead-colour:                       $branding-primary !default;
+$cart-table-thead-tracking:                     0.25em !default;
+$cart-table-thead-font-weight:                  700 !default;
+$cart-table-thead-text-transform:               uppercase !default;
+
+$cart-table-tbody-border:                       0 !default;
+$cart-table-tbody-th-border:                    0 !default;
+$cart-table-tbody-tr-even-bg:                   $gray-100 !default;
+$cart-table-tbody-td-py:                        1.25rem !default;
+$cart-table-tbodt-td-border-t:                  0 !default;
+
+// Product Thumbnail
+$cart-thumb-img-w:                              5rem !default;
+$cart-thumb-img-radius:                         999px !default;
+$cart-thumb-img-border:                         1px solid $gray-300 !default;
+
+// Remove Product
+$cart-remove-product-w:                         0 !default;
+$cart-remove-product-pr:                        0 !default;
+
+$cart-remove-link-pr:                           0 !default;
+$cart-remove-link-bg:                           transparent !default;
+$cart-remove-link-colour:                       $gray-500 !default;
+$cart-remove-link-font-weight:                  100 !default;
+$cart-remove-link-font-size:                    2rem !default;
+
+$cart-remove-link-hover-bg:                     transparent !default;
+$cart-remove-link-hover-colour:                 $gray-700 !default;
+
+// Product Name
+$cart-product-name-link-colour:                 $gray-700 !default;
+$cart-product-name-link-hover-colour:           $link-active-colour !default;
+
+// Product Subtotal
+$cart-product-subtotal-font-weight:             700 !default;
+
+// Cart Actions
+$cart-actions-area-bg:                          $white !default;
+
+$cart-actions-input-width:                      inherit !default;
+$cart-actions-input-p:                          0.75rem !default;
+$cart-actions-input-mr:                         1rem !default;
+
+$cart-actions-btn-radius:                       0.25rem !default;
