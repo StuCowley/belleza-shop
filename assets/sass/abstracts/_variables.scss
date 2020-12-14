@@ -7,7 +7,7 @@ $break-xl:                                      1280px !default;
 
 // ---------- COLOUR SYSTEM
 
-//*** Grayscale
+//*** GRAYSCALE
 $gray-100:                                      hsl(204, 47%, 98%) !default;
 $gray-200:                                      hsl(210, 40%, 95%) !default;
 $gray-300:                                      hsl(215, 33%, 91%) !default;
@@ -22,7 +22,7 @@ $gray-900:                                      hsl(221, 27%, 14%) !default;
 $black:                                         hsl(0, 0%, 0%) !default;
 $white:                                         hsl(0, 0%, 100%) !default;
 
-//*** States Colours
+//*** STATE COLOURS
 $colour-info:                                   hsl(217, 92%, 60%) !default;
 $colour-success:                                hsl(160, 84%, 39%) !default;
 $colour-warning:                                hsl(43, 97%, 56%) !default;
@@ -35,7 +35,7 @@ $state-colours:(
   'error':    $colour-error
 ) !default;
 
-//*** Branding
+//*** BRANDING
 $branding-primary:                              hsl(216, 100%, 22%) !default;
 $branding-secondary:                            hsl(359, 68%, 89%) !default;
 
@@ -43,7 +43,7 @@ $body-bg:                                       $white !default;
 
 // ---------- TYPOGRAPHY
 
-//*** Font URL
+//*** FONT URL
 
 $font-url:                                      'https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap' !default;
 
@@ -51,7 +51,7 @@ $font-sans-serif:                               system-ui, -apple-system, BlinkM
 $font-monospace:                                ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 $font-base:                                     'Quicksand', $font-sans-serif !default;
 
-//*** Font Sizes
+//*** FONT SIZES
 $font-size-xs:                                  0.75rem !default;
 $font-size-sm:                                  0.875rem !default;
 $font-size-md:                                  1rem !default;
@@ -65,26 +65,26 @@ $font-size-6xl:                                 4rem !default;
 
 $font-size-base:                                $font-size-md !default;
 
-//*** Text Colours
+//*** TEXT COLOURS
 $colour-base:                                   $gray-700 !default;
 
 
 // ---------- LINKS
 
-//*** Link Colours
+//*** LINK COLOURS
 $link-active-colour:                            hsl(220, 96%, 49%) !default;
 $link-hover-colour:                             hsl(219, 89%, 29%) !default;
 $link-focus-colour:                             $link-hover-colour !default;
 
-//*** Link Decoration
+//*** LINK DECORATION
 $link-active-decoration:                        none !default;
 $link-hover-decoration:                         none !default;
 $link-focus-decoration:                         $link-hover-decoration !default;
 
-//*** Link Outline
+//*** LINK OUTLINE
 $link-outline:                                  none !default;
 
-//*** Link Transition
+//*** LINK TRANSITION
 $link-transition:                               0.25s ease all !default;
 
 
@@ -100,7 +100,7 @@ $header-max-w:                                  1280px !default;
 
 $header-bg-colour:                              $white !default;
 
-//*** Header Branding
+//*** HEADER BRANDING
 $header-branding-mr:                            1.5rem !default;
 $header-branding-colour:                        $gray-900 !default;
 $header-branding-font-weight:                   600 !default;
@@ -112,7 +112,7 @@ $header-branding-img-hover-opacity:             0.5 !default;
 $header-branding-link-colour:                   $colour-base !default;
 $header-branding-link-hover:                    $branding-primary !default;
 
-//*** Header Menu Toggle
+//*** HEADER MENU TOGGLE
 $header-menu-toggle-btn-colour:                 $branding-primary !default;
 $header-menu-toggle-btn-hover-colour:           $gray-900 !default;
 $header-menu-toggle-btn-transition:             $link-transition !default;
@@ -121,14 +121,14 @@ $header-menu-toggle-btn-outline:                $link-outline !default;
 $header-menu-toggle-btn-svg-w:                  1.25rem !default;
 $header-menu-toggle-btn-svg-h:                  1.25rem !default;
 
-//*** Header Menu
+//*** HEADER MENU
 $header-menu-mt-sm:                             1rem !default;
 $header-menu-mt-lg:                             0 !default;
 
-//*** Header Menu Container
+//*** HEADER MENU CONTAINER
 $header-menu-container-text-align:              center !default;
 
-//*** Header Menu Item
+//*** HEADER MENU ITEM
 $header-menu-item-mt-sm:                        1rem !default;
 $header-menu-item-mt-lg:                        0 !default;
 $header-menu-item-mr-lg:                        1.5rem !default;
@@ -140,7 +140,7 @@ $header-menu-item-link-text-transform:          capitalize !default;
 
 $header-menu-item-link-hover-colour:            $link-active-colour !default;
 
-//*** Header Menu Button
+//*** HEADER MENU BUTTON
 $header-menu-btn-padding-y-sm:                  0.25rem !default;
 $header-menu-btn-padding-x-sm:                  1rem !default;
 
@@ -154,7 +154,7 @@ $header-menu-btn-hover-bg:                      $branding-primary !default;
 $header-menu-btn-hover-colour:                  $white !default;
 $header-menu-btn-outline:                       $link-outline !default;
 
-//*** Header Secondary Menu
+//*** HEADER SECONDARY MENU
 $header-secondary-menu-mt-sm:                   2.5rem !default;
 $header-secondary-menu-mt-lg:                   0 !default;
 
@@ -173,7 +173,7 @@ $footer-padding-x-lg:                           8rem !default;
 
 //---------- HERO FEATURE
 
-//*** Padding
+//*** PADDING
 $hero-feature-p:                                2.5rem 1rem !default;
 
 $hero-feature-py-sm:                            3rem !default;
@@ -183,21 +183,21 @@ $hero-feature-py-xl:                            6rem !default;
 $hero-feature-px-sm:                            1.5rem !default;
 $hero-feature-px-lg:                            2rem !default;
 
-//*** Background
+//*** BACKGROUND
 $hero-feature-bg-repeat:                        no-repeat !default;
 $hero-feature-bg-size:                          cover !default;
 $hero-feature-bg-pos:                           center !default;
 $hero-feature-bg-colour:                        $gray-200 !default;
 $hero-feature-bg-blend:                         multiply !default;
 
-//*** Text
+//*** TEXT
 $hero-feature-colour:                           $gray-600 !default;
 $hero-feature-text-align:                       center !default;
 
 $hero-feature-text-align-sm:                    center !default;
 $hero-feature-text-align-lg:                    left !default;
 
-//*** Heading (<h2>)
+//*** HEADING (<h2>)
 $hero-feature-h2-max-w-sml:                     48rem !default;
 $hero-feature-h2-mx-sm:                         auto !default;
 $hero-feature-h2-mx-lg:                         0 !default;
@@ -209,24 +209,24 @@ $hero-feature-h2-leading:                       2.25rem !default;
 $hero-feature-h2-leading-sm:                    1 !default;
 $hero-feature-h2-colour:                        $gray-800 !default;
 
-//*** Paragraph
+//*** PARAGRAPH
 $hero-feature-p-max-width-sm:                   36rem !default;
 $hero-feature-p-m:                              1.25rem auto 0 auto !default;
 $hero-feature-p-mt:                             0.75rem !default;
 $hero-feature-p-font-size:                      $font-size-base !default;
 $hero-feature-p-font-size-sm:                   1.25rem !default;
 
-//*** Feature Hero Container
+//*** FEATURE HERO CONTAINER
 $hero-feature-container-max-w:                  1280px !default;
 $hero-feature-container-mx:                     auto !default;
 
-//*** Feature Hero Button Group
+//*** FEATURE HERO BUTTON GROUP
 $hero-feature-btn-group-mt:                     1.25rem !default;
 $hero-feature-btn-group-span-mt:                0.75rem !default;
 
 $hero-feature-btn-group-mt-sm:                  2rem !default;
 
-//*** Hero Button
+//*** HERO BUTTON
 $hero-btn-py:                                   0.75rem !default;
 $hero-btn-px:                                   2rem !default;
 $hero-btn-py-md:                                0.75rem !default;
@@ -239,14 +239,14 @@ $hero-btn-font-weight:                          500 !default;
 $hero-btn-font-size:                            $font-size-base !default;
 $hero-btn-outline:                              $link-outline !default;
 
-//*** Primary Hero Button
+//*** PRIMARY HERO BUTTON
 $hero-btn-primary-bg:                           $branding-primary !default;
 $hero-btn-primary-colour:                       $white !default;
 
 $hero-btn-primary-bg-hover:                     $branding-secondary !default;
 $hero-btn-primary-colour-hover:                 $branding-primary !default;
 
-//*** Secondary Hero Button
+//*** SECONDARY HERO BUTTON
 $hero-btn-secondary-bg:                         $white !default;
 $hero-btn-secondary-border-colour:              transparent !default;
 $hero-btn-secondary-colour:                     $branding-primary !default;
@@ -268,7 +268,7 @@ $page-content-margin-x:                         auto !default;
 
 //---------- WOOCOMMERCE
 
-//*** Notice Box
+//*** NOTICE BOX
 $wc-notice-box-py:                              1rem !default;
 $wc-notice-box-px:                              0.875rem !default;
 
@@ -280,9 +280,9 @@ $wc-notice-box-icon-display:                    none !default;
 
 $wc-notice-box-font-weight:                     400 !default;
 
-//*** Badges
+//*** BADGES
 
-// ON SALE
+// On Sale
 $onsale-vertical-align:                         middle !default;
 
 $onsale-padding-y:                              0 !default;
