@@ -72,8 +72,10 @@
   margin-top: 2rem;
 
   li {
-    &:last-child {
-      margin-bottom: 0 !important;
+    margin-top: 0.25rem;
+
+    &:first-child {
+      margin-top: 0 !important;
     }
   }
 

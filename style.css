@@ -1133,8 +1133,11 @@ a:hover, a:focus {
 .sc-footer-nav {
   margin-top: 2rem;
 }
-.sc-footer-nav li:last-child {
-  margin-bottom: 0 !important;
+.sc-footer-nav li {
+  margin-top: 0.25rem;
+}
+.sc-footer-nav li:first-child {
+  margin-top: 0 !important;
 }
 .sc-footer-nav .menu-item {
   display: block !important;
