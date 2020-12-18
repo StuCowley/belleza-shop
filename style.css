@@ -1095,6 +1095,15 @@ a:hover, a:focus {
 }
 
 /**
+ * Sets the display of the footer branding
+ *
+ * Version: 1.0.0
+ */
+.sc-footer-branding img {
+  width: 8rem;
+}
+
+/**
  * Set the page content
  */
 .sc-page-content {

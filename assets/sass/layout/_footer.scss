@@ -22,3 +22,15 @@
     padding: $footer-padding-y-lg $footer-padding-x-lg;
   }
 }
+
+/**
+ * Sets the display of the footer branding
+ *
+ * Version: 1.0.0
+ */
+
+.sc-footer-branding {
+  img {
+    width: 8rem;
+  }
+}
