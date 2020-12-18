@@ -32,6 +32,20 @@
 }
 
 /**
+ * Sets the footer grid that divids each footer section into columns
+ *
+ * Version: 1.0.0
+ */
+
+.sc-footer-grid {
+  @media(min-width: $break-lg) {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
+}
+
+/**
  * Sets the display of the footer branding
  *
  * Version: 1.0.0
