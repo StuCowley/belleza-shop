@@ -1079,6 +1079,12 @@ a:hover, a:focus {
   background-color: #1a202d;
   color: white;
 }
+.sc-page-footer a {
+  color: white;
+}
+.sc-page-footer a:hover, .sc-page-footer a:focus {
+  color: #728297;
+}
 
 /**
  * Sets the display of the footer container

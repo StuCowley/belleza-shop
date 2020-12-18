@@ -7,6 +7,14 @@
 .sc-page-footer {
   background-color: $footer-bg-colour;
   color: $footer-colour;
+
+  a {
+    color: $footer-colour;
+
+    @include hover-focus {
+      color: $gray-600;
+    }
+  }
 }
 
 /**
