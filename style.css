@@ -980,6 +980,7 @@ a:hover, a:focus {
   display: flex;
   align-items: center;
   flex-shrink: 0;
+  width: 8rem;
   margin-right: 1.5rem;
   color: #1a202d;
 }
