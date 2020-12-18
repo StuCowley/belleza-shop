@@ -15,7 +15,6 @@
       <?php get_template_part( 'template-parts/footer/footer-branding' ); ?>
       <?php get_template_part( 'template-parts/footer/footer-contact' ); ?>
       <?php get_template_part( 'template-parts/footer/footer-nav' ); ?>
-      <?php get_template_part( 'template-parts/footer/footer-hours' ); ?>
     </div>
     
     <?php get_template_part( 'template-parts/footer/footer-notices' ); ?>
