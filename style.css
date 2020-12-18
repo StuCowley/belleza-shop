@@ -1123,6 +1123,22 @@ a:hover, a:focus {
 }
 
 /**
+ * Sets the display of the footer navigation
+ *
+ * Version: 1.0.0
+ */
+.sc-footer-nav {
+  margin-top: 2rem;
+}
+.sc-footer-nav li:last-child {
+  margin-bottom: 0 !important;
+}
+.sc-footer-nav .menu-item {
+  display: block !important;
+  font-weight: 600 !important;
+}
+
+/**
  * Set the page content
  */
 .sc-page-content {

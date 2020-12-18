@@ -57,3 +57,23 @@
     margin-bottom: 1rem;
   }
 }
+
+/**
+ * Sets the display of the footer navigation
+ *
+ * Version: 1.0.0
+ */
+.sc-footer-nav {
+  margin-top: 2rem;
+
+  li {
+    &:last-child {
+      margin-bottom: 0 !important;
+    }
+  }
+
+  .menu-item {
+    display: block !important;
+    font-weight: 600 !important;
+  }
+}
