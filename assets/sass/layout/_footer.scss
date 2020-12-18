@@ -39,9 +39,7 @@
 
 .sc-footer-grid {
   @media(min-width: $break-lg) {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 1rem;
+    @include grid($colCount: $footer-nav-col-count);
   }
 }
 
