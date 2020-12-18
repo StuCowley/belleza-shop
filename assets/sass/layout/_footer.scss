@@ -106,3 +106,23 @@
     }
   }
 }
+
+/**
+ * Sets the display of the footer notices. Such as copyright and site author 
+ * info.
+ *
+ * Version: 1.0.0
+ */
+
+.sc-footer-notices {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.sc-footer-copyright {
+  font-weight: 600;
+}
+
+.sc-footer-author {
+  margin-top: 0.5rem;
+}
