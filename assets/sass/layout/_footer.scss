@@ -82,3 +82,27 @@
     font-weight: 600 !important;
   }
 }
+
+/**
+ * Sets the display of the footer opening hours
+ *
+ * Version: 1.0.0
+ */
+
+.sc-footer-opening-hours {
+  margin-top: 2rem;
+  
+  ul {
+    
+    border-bottom: 1px solid $gray-800;
+  }
+  
+  li {
+    @include margin-y(0.5rem, 0.5rem);
+    display: inline-block;
+
+    &:nth-child(even) {
+      float: right !important;
+    }
+  }
+}

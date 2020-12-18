@@ -1142,6 +1142,26 @@ a:hover, a:focus {
 }
 
 /**
+ * Sets the display of the footer opening hours
+ *
+ * Version: 1.0.0
+ */
+.sc-footer-opening-hours {
+  margin-top: 2rem;
+}
+.sc-footer-opening-hours ul {
+  border-bottom: 1px solid #2d3648;
+}
+.sc-footer-opening-hours li {
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
+  display: inline-block;
+}
+.sc-footer-opening-hours li:nth-child(even) {
+  float: right !important;
+}
+
+/**
  * Set the page content
  */
 .sc-page-content {
