@@ -9,8 +9,8 @@
  * @since 1.0.0
  */
 
+get_template_part( 'template-parts/footer/site-footer' );
 ?>
 
-  <?php get_template_part( 'template-parts/footer/site-footer' ); ?>
 </body>
 </html>
