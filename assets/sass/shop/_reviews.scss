@@ -1,0 +1,68 @@
+/**
+ * Sets the product review styles.
+ *
+ * Version: 1.0.0
+ */
+ .commentlist li {
+  list-style-type: none !important;
+}
+
+.comment-text {
+  margin-bottom: 2rem;
+  border-radius: 0.25rem !important;
+  border-color: $gray-300 !important;
+  background-color: $gray-100 !important;
+
+  .meta {
+    color: $gray-500 !important;
+  }
+}
+
+.comment-respond {
+  .comment-reply-title {
+    color: $branding-primary;
+    letter-spacing: 0.125em;
+    font-size: $font-size-xl;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  label {
+    color: $gray-500;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+  .comment-form-rating {
+    .stars {
+      
+      a {
+        margin-top: 0.25rem;
+        color: $gray-700;
+      }
+    }
+  }
+
+  .comment-form-comment {
+    textarea {
+      min-height: 10rem;
+      padding: 0.5rem 1rem;
+      border-radius: 0.25rem;
+      border: 1px solid $gray-300;
+      background-color: $gray-100;
+      transition: $link-transition;
+
+      @include focus {
+        border-color: $gray-600;
+        outline: none;
+        background-color: $white;
+      }
+    }
+  }
+
+  .form-submit {
+    input[type="submit"] {
+      @include shop-btn(0.875rem, 2rem);
+    }
+  }
+}

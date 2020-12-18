@@ -14,32 +14,35 @@
  */
 
 .shop_table {
-  border: 0 !important;
+  border: $cart-table-border !important;
 
   thead {
-    color: $branding-primary;
-    letter-spacing: 0.25em !important;
-    font-weight: 700;
-    text-transform: uppercase;
+    color: $cart-table-thead-colour;
+    letter-spacing: $cart-table-thead-tracking !important;
+    font-weight: $cart-table-thead-font-weight;
+    text-transform: $cart-table-thead-text-transform;
   }
 
   tbody {
     th {
-      border: 0 !important;  
+      border: $cart-table-tbody-th-border !important;  
     }
 
-    border: 0 !important;
+    border: $cart-table-tbody-border !important;
 
     tr {
       &:nth-child(even) {
-        background-color: $gray-100;
+        background-color: $cart-table-tbody-tr-even-bg;
       }
     }
 
     td {
-      @include padding-y(1.25rem, 1.25rem);
+      @include padding-y(
+        $cart-table-tbody-td-py, 
+        $cart-table-tbody-td-py
+      );
 
-      border-top: 0 !important;
+      border-top: $cart-table-tbodt-td-border-t !important;
     }
   }
 
@@ -51,9 +54,9 @@
 
   .product-thumbnail {
     img {
-      width: 5rem;
-      border-radius: 999px;
-      border: 1px solid $gray-300;
+      width: $cart-thumb-img-w;
+      border-radius: $cart-thumb-img-radius;
+      border: $cart-thumb-img-border;
     }
   }
 
@@ -64,19 +67,19 @@
    */
   
   .product-remove {
-    width: 0 !important;
-    padding-right: 0 !important;
+    width: $cart-remove-product-w !important;
+    padding-right: $cart-remove-product-pr !important;
     
     a {
-      padding-right: 0 !important;
-      background-color: transparent;
-      color: $gray-500 !important;
-      font-weight: 100 !important;
-      font-size: 2rem !important;
+      padding-right: $cart-remove-link-pr !important;
+      background-color: $cart-remove-link-bg;
+      color: $cart-remove-link-colour !important;
+      font-weight: $cart-remove-link-font-weight !important;
+      font-size: $cart-remove-link-font-size !important;
 
       @include hover-focus {
-        background-color: transparent;
-        color: $gray-700 !important;
+        background-color: $cart-remove-link-hover-bg;
+        color: $cart-remove-link-hover-colour !important;
       }
     }
   }
@@ -89,16 +92,16 @@
 
   .product-name {
     a {
-      color: $gray-700;
+      color: $cart-product-name-link-colour;
 
       @include hover-focus {
-        color: $link-active-colour;
+        color: $cart-product-name-link-hover-colour;
       }
     }
   }
   
   .product-subtotal {
-    font-weight: 700;
+    font-weight: $cart-product-subtotal-font-weight;
   }
 }
 
@@ -109,15 +112,15 @@
  */
 
 td.actions {
-  background-color: $white !important;
+  background-color: $cart-actions-area-bg !important;
 
   .input-text {
-    width: inherit !important;
-    padding: 0.75rem 0.75rem !important;
-    margin-right: 1rem;
+    width: $cart-actions-input-width !important;
+    padding: $cart-actions-input-p !important;
+    margin-right: $cart-actions-input-mr;
   }
 
   .button {
-    border-radius: 0.25rem !important;
+    border-radius: $cart-actions-btn-radius !important;
   }
 }
