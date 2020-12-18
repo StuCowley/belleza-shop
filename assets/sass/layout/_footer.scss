@@ -42,3 +42,18 @@
     width: $footer-branding-w;
   }
 }
+
+/**
+ * Sets the display of footer contact info
+ *
+ * Version: 1.0.0
+ */
+
+.sc-contact-details {
+  margin-top: 2rem;
+  font-weight: 300;
+
+  li {
+    margin-bottom: 1rem;
+  }
+}
