@@ -30,7 +30,7 @@
   </nav><!-- /.sc-footer-nav -->
 
   <nav class="sc-footer-nav">
-  <?php
+    <?php
     /** 
      * Display the primary footer navigation menu, which shares the header menu
      * 
