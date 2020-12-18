@@ -1121,6 +1121,9 @@ a:hover, a:focus {
 .sc-contact-details li {
   margin-bottom: 1rem;
 }
+.sc-contact-details li:last-child {
+  margin-bottom: 0 !important;
+}
 
 /**
  * Sets the display of the footer navigation
