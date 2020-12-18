@@ -26,8 +26,9 @@ if ( ! function_exists( 'bellezashop_setup' ) ) {
      */
     register_nav_menus(
       array(
-        'header'  =>  esc_html__( 'Header menu', 'bellezashop' ),
-        'footer'  =>  esc_html__( 'Footer menu', 'bellezashop' ),
+        'header'    =>  esc_html__( 'Header menu', 'bellezashop' ),
+        'footer'    =>  esc_html__( 'Footer menu', 'bellezashop' ),
+        'policies'  =>  esc_html__( 'Policies menu', 'bellezashop' ),
       )
     );
 
