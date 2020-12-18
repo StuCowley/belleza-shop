@@ -174,3 +174,15 @@
     display: $icon-display;
   }
 }
+
+// GRID
+//
+// Sets up a grid. Simply add the column count and column gap.
+//
+// Version: 1.0.0
+
+@mixin grid($colCount, $colGap: 1rem) {
+  display: grid;
+  grid-template-columns: repeat($colCount, minmax(0, 1fr));
+  gap: $colGap;
+}
