@@ -88,3 +88,18 @@
     }
   }
 }
+
+/**
+ * Sets the footer copyright and author
+ *
+ * Version: 1.0.0
+ */
+
+.sc-footer-copyright {
+  margin-top: 2rem;
+  color: $gray-600;
+
+  p {
+    margin-top: 0.5rem;
+  }
+}

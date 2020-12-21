@@ -1151,6 +1151,19 @@ a:hover, a:focus {
 }
 
 /**
+ * Sets the footer copyright and author
+ *
+ * Version: 1.0.0
+ */
+.sc-footer-copyright {
+  margin-top: 2rem;
+  color: #728297;
+}
+.sc-footer-copyright p {
+  margin-top: 0.5rem;
+}
+
+/**
  * Set the page content
  */
 .sc-page-content {
