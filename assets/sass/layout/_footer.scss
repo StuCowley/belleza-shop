@@ -7,10 +7,6 @@
 .sc-footer {
   @include padding-y(3rem, 3rem);
   background-color: $gray-900;
-
-  a {
-    color: $gray-500;
-  }
   color: $gray-400;
 }
 
@@ -25,4 +21,36 @@
   @include margin-x(auto, auto);
   max-width: 1280px;
   text-align: center;
+}
+
+/**
+ * Sets the footer navigation
+ *
+ * Version: 1.0.0
+ */
+
+.sc-footer-nav {
+  li {
+    display: block;
+  }
+
+  a {
+    color: $gray-500;
+    text-transform: capitalize;
+
+    @include hover-focus {
+      color: $gray-300;
+    }
+  }
+
+  @media(min-width: $break-lg) {
+    li {
+      display: inline-block;
+      margin-right: 2rem;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
 }

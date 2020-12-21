@@ -1082,9 +1082,6 @@ a:hover, a:focus {
   background-color: #1a202d;
   color: #ccd5e0;
 }
-.sc-footer a {
-  color: #a0aec0;
-}
 
 /**
  * Sets the footer container
@@ -1098,6 +1095,31 @@ a:hover, a:focus {
   margin-right: auto !important;
   max-width: 1280px;
   text-align: center;
+}
+
+/**
+ * Sets the footer navigation
+ *
+ * Version: 1.0.0
+ */
+.sc-footer-nav li {
+  display: block;
+}
+.sc-footer-nav a {
+  color: #a0aec0;
+  text-transform: capitalize;
+}
+.sc-footer-nav a:hover, .sc-footer-nav a:focus {
+  color: #e0e7f0;
+}
+@media (min-width: 1024px) {
+  .sc-footer-nav li {
+    display: inline-block;
+    margin-right: 2rem;
+  }
+  .sc-footer-nav li:last-child {
+    margin-right: 0;
+  }
 }
 
 /**
