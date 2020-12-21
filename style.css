@@ -1133,7 +1133,7 @@ a:hover, a:focus {
  * Version: 1.0.0
  */
 .sc-footer-socials {
-  margin-top: 2rem;
+  margin-top: 1.25rem;
 }
 .sc-footer-socials svg {
   width: 1.25rem;
@@ -1161,7 +1161,7 @@ a:hover, a:focus {
  * Version: 1.0.0
  */
 .sc-footer-copyright {
-  margin-top: 2rem;
+  margin-top: 1.25rem;
   color: #728297;
 }
 .sc-footer-copyright p {
