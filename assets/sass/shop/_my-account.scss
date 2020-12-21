@@ -103,6 +103,10 @@ form.login {
     border-bottom: 1px solid $gray-300;
     list-style-type: none !important;
 
+    &:first-child {
+      margin-top: -1.5rem !important;
+    }
+
     &:last-child {
       margin-bottom: 2rem;
     }
