@@ -1123,6 +1123,34 @@ a:hover, a:focus {
 }
 
 /**
+ * Sets the footer social links
+ *
+ * Version: 1.0.0
+ */
+.sc-footer-socials {
+  margin-top: 2rem;
+}
+.sc-footer-socials svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.sc-footer-socials a {
+  fill: currentColor;
+  color: #a0aec0;
+  text-transform: capitalize;
+}
+.sc-footer-socials a:hover, .sc-footer-socials a:focus {
+  color: #e0e7f0;
+}
+.sc-footer-socials li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+.sc-footer-socials li:last-child {
+  margin-right: 0;
+}
+
+/**
  * Set the page content
  */
 .sc-page-content {

@@ -54,3 +54,37 @@
     }
   }
 }
+
+/**
+ * Sets the footer social links
+ *
+ * Version: 1.0.0
+ */
+
+.sc-footer-socials {
+  margin-top: 2rem;
+
+  svg {
+    width: 1.25rem;
+    height: 1.25rem;
+  }
+  
+  a {
+    fill: currentColor;
+    color: $gray-500;
+    text-transform: capitalize;
+
+    @include hover-focus {
+      color: $gray-300;
+    }
+  }
+
+  li {
+    display: inline-block;
+    margin-right: 1rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
