@@ -13,3 +13,16 @@
   }
   color: $gray-400;
 }
+
+/**
+ * Sets the footer container
+ *
+ * Version: 1.0.0
+ */
+
+.sc-footer-container {
+  @include padding-x(2rem, 2rem);
+  @include margin-x(auto, auto);
+  max-width: 1280px;
+  text-align: center;
+}

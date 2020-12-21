@@ -1087,6 +1087,20 @@ a:hover, a:focus {
 }
 
 /**
+ * Sets the footer container
+ *
+ * Version: 1.0.0
+ */
+.sc-footer-container {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 1280px;
+  text-align: center;
+}
+
+/**
  * Set the page content
  */
 .sc-page-content {
