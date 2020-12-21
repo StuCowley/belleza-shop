@@ -1105,6 +1105,7 @@ a:hover, a:focus {
 .sc-footer-nav li {
   display: block;
   margin-bottom: 0.875rem;
+  font-weight: 700;
 }
 .sc-footer-nav li:last-child {
   margin-bottom: 0;
