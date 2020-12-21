@@ -1076,6 +1076,16 @@ a:hover, a:focus {
  *
  * Version: 1.0.0
  */
+.sc-footer {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+  background-color: #1a202d;
+  color: #ccd5e0;
+}
+.sc-footer a {
+  color: #a0aec0;
+}
+
 /**
  * Set the page content
  */
