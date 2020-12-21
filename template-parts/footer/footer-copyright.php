@@ -10,9 +10,7 @@
 ?>
 
 <div class="sc-footer-copyright">
-  <p>
-    &copy;<?php echo date( 'Y' ); ?> <?php bloginfo( 'name' ); ?>. All rights reserved.
-  </p>
+  &copy;<?php echo date( 'Y' ); ?> <?php bloginfo( 'name' ); ?>. All rights reserved.
 
   <p>
     Design &amp; code by Stu Cowley.
