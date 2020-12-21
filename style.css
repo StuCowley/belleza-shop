@@ -1104,6 +1104,10 @@ a:hover, a:focus {
  */
 .sc-footer-nav li {
   display: block;
+  margin-bottom: 0.875rem;
+}
+.sc-footer-nav li:last-child {
+  margin-bottom: 0;
 }
 .sc-footer-nav a {
   color: #a0aec0;
@@ -1116,6 +1120,7 @@ a:hover, a:focus {
   .sc-footer-nav li {
     display: inline-block;
     margin-right: 2rem;
+    margin-bottom: 0;
   }
   .sc-footer-nav li:last-child {
     margin-right: 0;
