@@ -798,6 +798,17 @@ a:hover, a:focus {
 }
 
 /**
+ * 404 PAGE
+ *
+ * Sets the styles for the 404 page.
+ *
+ * Version: 1.0.0
+ */
+.sc-404-page h1 {
+  font-size: 2rem;
+}
+
+/**
  * Set the featured hero
  *
  * Version: 1.0.0
