@@ -1882,6 +1882,13 @@ td.actions .button {
   margin-right: 1rem !important;
 }
 
+.payment_box {
+  background: transparent !important;
+}
+.payment_box:before {
+  display: none !important;
+}
+
 /**
  * PRICING
  *
