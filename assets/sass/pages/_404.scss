@@ -7,5 +7,31 @@
  */
 
 .sc-404-page {
-  
+  text-align: center;
+
+  h1 {
+    color: $branding-primary;
+    font-size: $font-size-6xl;
+    font-weight: 600;
+  }
+
+  h2 {
+    margin-bottom: 2rem !important;
+    font-size: $font-size-3xl !important;
+  }
+
+  p {
+    @include margin-x(auto, auto);
+    margin-bottom: 2rem !important;
+
+    @media(min-width: $break-sm) {
+      max-width: 40%;
+      min-width: 40%;
+    }
+  }
+
+  a {
+    display: inline-block;
+    @include shop-btn;
+  }
 }

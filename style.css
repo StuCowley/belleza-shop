@@ -804,8 +804,45 @@ a:hover, a:focus {
  *
  * Version: 1.0.0
  */
+.sc-404-page {
+  text-align: center;
+}
 .sc-404-page h1 {
-  font-size: 2rem;
+  color: #002d70;
+  font-size: 4rem;
+  font-weight: 600;
+}
+.sc-404-page h2 {
+  margin-bottom: 2rem !important;
+  font-size: 1.875rem !important;
+}
+.sc-404-page p {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-bottom: 2rem !important;
+}
+@media (min-width: 640px) {
+  .sc-404-page p {
+    max-width: 40%;
+    min-width: 40%;
+  }
+}
+.sc-404-page a {
+  display: inline-block;
+  padding: 1rem 2rem !important;
+  border-radius: 999px !important;
+  background-color: #002d70 !important;
+  color: white !important;
+  letter-spacing: 0.05em;
+  font-weight: 700 !important;
+  text-transform: capitalize;
+  text-align: center;
+  transition: 0.25s ease all !important;
+}
+.sc-404-page a:hover, .sc-404-page a:focus {
+  background-color: #f6d0d1 !important;
+  color: #002d70 !important;
+  outline: none !important;
 }
 
 /**
