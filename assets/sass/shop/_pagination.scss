@@ -23,7 +23,7 @@
   }
 
   a {
-    @include hover {
+    @include hover-focus {
       color: $gray-900 !important;
       background: transparent !important;
     }

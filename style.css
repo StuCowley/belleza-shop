@@ -1384,7 +1384,7 @@ a:hover, a:focus {
 .woocommerce-pagination a {
   color: #a0aec0;
 }
-.woocommerce-pagination a:hover {
+.woocommerce-pagination a:hover, .woocommerce-pagination a:focus {
   color: #1a202d !important;
   background: transparent !important;
 }
