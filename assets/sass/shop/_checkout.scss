@@ -160,4 +160,8 @@
   &:before {
     display: none !important;
   }
+
+  @media(min-width: $break-lg) {
+    width: 50% !important;
+  }
 }

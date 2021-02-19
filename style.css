@@ -1888,6 +1888,11 @@ td.actions .button {
 .payment_box:before {
   display: none !important;
 }
+@media (min-width: 1024px) {
+  .payment_box {
+    width: 50% !important;
+  }
+}
 
 /**
  * PRICING
