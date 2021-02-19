@@ -134,3 +134,15 @@
     }
   }
 }
+
+/**
+ * Sets the payment method styles.
+ *
+ * Version: 1.0.0
+ */
+
+.woocommerce-checkout-payment {
+  li {
+    list-style-type: none;
+  }
+}
