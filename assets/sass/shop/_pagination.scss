@@ -5,3 +5,29 @@
  *
  * Version: 1.0.0
  */
+
+.woocommerce-pagination {
+  ul,
+  li {
+    border: 0 !important;
+  }
+
+  span {
+    background: transparent !important;
+    color: $gray-900 !important;
+    font-weight: 600 !important;
+  }
+
+  li {
+    padding: 0.5rem 0.25rem !important;
+  }
+
+  a {
+    @include hover {
+      color: $gray-900 !important;
+      background: transparent !important;
+    }
+
+    color: $gray-500;
+  }
+}
