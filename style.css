@@ -1877,6 +1877,11 @@ td.actions .button {
   list-style-type: none;
 }
 
+.payment_method_square_credit_card img {
+  display: inline-block;
+  margin-right: 1rem !important;
+}
+
 /**
  * PRICING
  *
