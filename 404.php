@@ -22,6 +22,3 @@ get_header();
     Back to home
   </a>
 </div><!-- /.sc-page-content -->
-
-<?php
-get_footer();
