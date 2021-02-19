@@ -11,7 +11,7 @@ get_header();
 ?>
 
 <div class="sc-page-content sc-404-page">
-
+  404
 </div><!-- /.sc-page-content -->
 
 <?php
